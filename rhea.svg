@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="883.7497 395 285 244.51282" width="285" height="244.51282">
+  <defs/>
+  <metadata> Produced by OmniGraffle 7.8.2 test 
+    <dc:date>2018-08-10 20:55:55 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" fill-opacity="1" stroke-dasharray="none" stroke="none" stroke-opacity="1" fill="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_56">
+        <path d="M 1110.996 637.5128 L 941.5027 637.5128 C 923.8296 637.5128 909.5027 623.1859 909.5027 605.5128 C 909.5027 599.8404 911.0105 594.26985 913.8718 589.3719 L 998.6174 444.29964 C 1007.5318 429.0395 1027.1291 423.89523 1042.3893 432.80963 C 1047.144 435.58716 1051.1016 439.54466 1053.8792 444.29936 L 1138.6268 589.3716 C 1147.5413 604.63166 1142.3972 624.2291 1127.1372 633.1436 C 1122.2391 636.0049 1116.6685 637.5128 1110.996 637.5128 Z" stroke="#464646" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Graphic_55">
+        <circle cx="975.7497" cy="542" r="20.0000319580379" fill="#ffcb2c"/>
+        <circle cx="975.7497" cy="542" r="20.0000319580379" stroke="#cbcbcb" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      </g>
+      <g id="Graphic_54">
+        <circle cx="1078.7497" cy="542" r="20.0000319580379" fill="#d5003a"/>
+        <circle cx="1078.7497" cy="542" r="20.0000319580379" stroke="#cbcbcb" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      </g>
+      <g id="Graphic_53">
+        <circle cx="1027.2497" cy="542" r="20.0000319580379" fill="#77007b"/>
+        <circle cx="1027.2497" cy="542" r="20.0000319580379" stroke="#cbcbcb" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      </g>
+    </g>
+  </g>
+</svg>
