@@ -1,37 +1,4 @@
 :begin
-create index on :`CoreFlow`(`cf_id`);
-create index on :`CoreFlow`(`title`);
-create index on :`EmotionBase`(`emot_id`);
-create index on :`EmotionBase`(`name`);
-create index on :`Emotion`(`emotion_id`);
-create index on :`Emotion`(`name`);
-create index on :`Flow`(`centrality`);
-create index on :`Flow`(`doc_id`);
-create index on :`Flow`(`pageRank`);
-create index on :`Flow`(`title`);
-create index on :`Keyword`(`name`);
-create index on :`LeadershipBehaviour`(`lb_id`);
-create index on :`LeadershipBehaviour`(`mt_label`);
-create index on :`LeadershipBehaviour`(`title`);
-create index on :`LeadershipTeamInteractionArea`(`ltiba_id`);
-create index on :`LeadershipTeamInteractionArea`(`name`);
-create index on :`LeadershipTeamInteraction`(`ltib_id`);
-create index on :`LeadershipTeamInteraction`(`name`);
-create index on :`LeadershipTopic`(`lt_id`);
-create index on :`LeadershipTopic`(`name`);
-create index on :`RiskArea`(`ltira_id`);
-create index on :`RiskArea`(`name`);
-create index on :`Risk`(`mt_label`);
-create index on :`Risk`(`ri_id`);
-create index on :`Risk`(`title`);
-create index on :`TeamLeadershipRisk`(`ltir_id`);
-create index on :`TeamLeadershipRisk`(`name`);
-create index on :`UPLCPhase`(`name`);
-create index on :`UPLCPhase`(`uplcph_id`);
-create index on :`UPLifeCycle`(`name`);
-create index on :`UPLifeCycle`(`uplc_id`);
-commit
-:begin
 create (_0:`Flow` {`centrality`:141, `description`:"Growing projects must figure out how to grow long-term staff: whom to hire, how many to hire, and when to hire them. Projects must ramp up while minimizing the pains of growth. Phase the hiring program. Start by hiring people to meet the basic core competencies of the business and gradually bring on new people as the project needs to grow.", `doc_id`:"TB_PhasingItIn.txt", `pageRank`:0.015684, `pictureURL`:"http://soleil-alpin.com/rhea_assets/PrototypeTeamIdentity.svg", `referenceURL`:"http://orgpatterns.wikispaces.com/PhasingItIn", `sentiment`:0.080663, `title`:"Phasing it in"})
 create (_1:`Flow` {`centrality`:146, `description`:"At different points along the program the group allows impact of event(s) to divert it from course. Group members may drop into quarrels, allow despair, problems or difficulties to distract or even cease their work, wasting time and energy on procrastinations. When a group drops into unproductive quarrels, a drop into a circle of despair, desolation and justifications, re-channel the group thinking and acting towards achieving it goals through teamwork.", `doc_id`:"V_Compass.txt", `pageRank`:0.017293, `pictureURL`:"http://soleil-alpin.com/rhea_assets/PrototypeTeamIdentity.svg", `referenceURL`:"http://hillside.net/europlop/HillsideEurope/Papers/EuroPLoP2003/2003_Homsky_MorePatternsForGroupLeadership.pdf", `sentiment`:-0.231817, `title`:"Compass"})
 create (_2:`Flow` {`centrality`:136, `description`:"The lack of a clear vision about a system can lead to indecision and contrary opinions among the stakeholders and can quickly paralyze the project. The vision provides a mechanism for removing vague, ambiguous, or poorly defined requirements from the scope of the project. It is an objective filter for scrubbing requirements, and helps to define what is in or out of the system's scope. ", `doc_id`:"V_SharedClearVision.txt", `pageRank`:0.015675, `pictureURL`:"http://soleil-alpin.com/rhea_assets/PrototypeTeamIdentity.svg", `referenceURL`:"https://www.worldcat.org/title/patterns-for-effective-use-cases/oclc/301075257&referer=brief_results", `sentiment`:0.210238, `title`:"Shared clear vision"})
