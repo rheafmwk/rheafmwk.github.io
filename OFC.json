@@ -1,0 +1,164 @@
+{
+  "relatedflows": [
+    {
+      "n.title": "Master and Apprentice",
+      "n.doc_id": "A_MasterAndApprentice.txt",
+      "n.description": "In an environment that uses documentation only if they are part of the delivery, knowledge transfer between team members becomes a matter of direct collaboration instead of document transfer. You cannot just pass a well-written document to the novice and expect her to read it. Rather you have to transfer tacit knowledge that resides in the heads of the experts only. Still, those who have the knowledge are usually occupied with the project work. Pair up anyone who needs to learn something about the project with someone who is expert in this area. Let them do the work together until the apprentice has learned enough to work on his or her own. The main work — e.g. programming — should be done by the apprentice while the master watches and gives hints on how to do the work.",
+      "n.referenceURL": "http://hillside.net/europlop/HillsideEurope/Papers/EuroPLoP2002/2002_Coldewey_InteractionPatternsOfAgileDevelopment.pdf"
+    },
+    {
+      "n.title": "Forge the team",
+      "n.doc_id": "TB_ForgeTheTeam.txt",
+      "n.description": "Recognise that differences of opinion within a team are an asset, not a liability. … Differences of opinion become dysfunctional when they are not resolved. When warring factions emerge, bring the individual chief protagonists together for counselling. ",
+      "n.referenceURL": "http://wiki.c2.com/?ForgeTheTeam"
+    },
+    {
+      "n.title": "Sacrifice one person",
+      "n.doc_id": "TD_SacrificeOnePerson.txt",
+      "n.description": "Small distractions can add up, and sap the strength of the team. Assign just one person to it until it gets handled.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/SacrificeOnePerson"
+    },
+    {
+      "n.title": "Effective coach",
+      "n.doc_id": "C_EffectiveCoach.txt",
+      "n.description": "No process can work if you don't perform its practices. … This is especially true as some of the practices are counter-intuitive to many programmers. Many practices that are counter-productive in practice are ingrained in many work environments. People do these things \"naturally\" even though they know that they don't work. Therefore, someone on the team will have a full time role as Coach. The coach keeps the team faithful to the practices.",
+      "n.referenceURL": "https://csis.pace.edu/~bergin/patterns/xpPatternsEuroV7.html"
+    },
+    {
+      "n.title": "Developing in pairs",
+      "n.doc_id": "PP_DevelopingInPairs.txt",
+      "n.description": "Some people don't want to work alone, and working alone has great risks of blindsiding and misfits. And you need to provide for people who don't want to work alone, and in general engage people who are working alone but probably shouldn't be. Pair compatible designers to work together, together, they can produce more than the sum of the two individually.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/DevelopingInPairs"
+    },
+    {
+      "n.title": "Someone always makes progress",
+      "n.doc_id": "ID_SomeoneAlwaysMakesProgress.txt",
+      "n.description": "It is important to keep a team moving forward and to avoid getting stuck on the obstacles. Whatever you try, ensure that someone on the team is making progress on the primary task.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/SomeoneAlwaysMakesProgress"
+    },
+    {
+      "n.title": "Private space",
+      "n.doc_id": "WT_PrivateSpace.txt",
+      "n.description": "Concentration is one of the most valuable assets in software development. It may cost up to 20 minutes for a brainworker to recover from a single interruption. In addition personal comfort calls for a minimum of privacy that may be endangered in a highly collaborative environment. Make sure every team member has a private space he or she can retreat to when it is needed. This may be the simple opportunity to shut the door in a single or double office or a separate office to everyone’s discretion.",
+      "n.referenceURL": "http://hillside.net/europlop/HillsideEurope/Papers/EuroPLoP2002/2002_Coldewey_InteractionPatternsOfAgileDevelopment.pdf"
+    },
+    {
+      "n.title": "Open up communication",
+      "n.doc_id": "CC_OpenUpCommunication.txt",
+      "n.description": "How can an agile team be provided with information and communication channels needed to be self organized, whilst addressing the need for information and control by the overall project management? Create a communication plan for the agile project, basically addressing the how and not the details. Reach an agreement with the customer organization with regards to customer involvement and availability. Allow the agile team to collaborate with customer contacts directly and frequently. ... both parties need to open up their communication.",
+      "n.referenceURL": "http://hillside.net/europlop/europlop2011/submission/shepherd.cgi?token=62198633c8010f439aa85af06b4dbe3230391b55&action=download&label=1335792810_24"
+    },
+    {
+      "n.title": "Generics and specifics",
+      "n.doc_id": "ID_GenericsAndSpecifics.txt",
+      "n.description": "Novices, even when mentored, tend to produce weak designs and cut and paste code. Separate generic from specific parts of problems. Use an expert, a framework designer to design generic parts. Let the novice programmers design the specific parts.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/GenericsAndSpecifics"
+    },
+    {
+      "n.title": "Join for completion",
+      "n.doc_id": "RM_JoinForCompletion.txt",
+      "n.description": "How can you make the final tuning and qualification of your product efficient and focused? Gather the whole team (developers, architects, domain experts, and internal and external testers) together in one location for the final tuning of the product before delivery.",
+      "n.referenceURL": "http://hillside.net/plop/2004/papers/vbricout0/PLoP2004_vbricout0_0.doc"
+    },
+    {
+      "n.title": "Collective responsibility",
+      "n.doc_id": "T_CollectiveResponsibility.txt",
+      "n.description": "You need a high performance team in which every individual is deeply committed to every aspect of success of the project. Therefore, make the responsibility for completion and for the artifacts collective by the team, not by individuals. Let the team itself manage the fine-grained aspects of this.",
+      "n.referenceURL": "https://csis.pace.edu/~bergin/patterns/xpPatternsEuroV7.html"
+    },
+    {
+      "n.title": "Diverse groups",
+      "n.doc_id": "TB_DiverseGroups.txt",
+      "n.description": "Homogeneous teams that comprise too many of the same kind of people easily fall into groupthink-like dysfunction. Consider temperaments and diverse experience backgrounds when assembling a team. This diversity sometimes lines up with social classifications like age and gender, but more generally can be assessed on a personal level.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/DiverseGroups"
+    },
+    {
+      "n.title": "Growing your team",
+      "n.doc_id": "TB_GrowingYourTeam.txt",
+      "n.description": "Your team thinks it does good work, day in and day out. But you feel that things could be much better. Maybe the team is in denial about some problem, or maybe the work needs to move to the next level for some reason that you see and the team doesn't yet. In any case, every day seems more of the same old thing instead of a day in an adventurous journey. Create an environment for your team to discover the need for change and to architect its own change. Play the role of coach, not director.",
+      "n.referenceURL": "http://wiki.c2.com/?GrowingYourTeam"
+    },
+    {
+      "n.title": "Team space",
+      "n.doc_id": "WT_TeamSpace.txt",
+      "n.description": "Your physical work environment should be arranged to maximise people’s productive time. Therefore, create a physical space for casual, unplanned interactions between team members.",
+      "n.referenceURL": "http://www.hillside.net/plop/plop98/final_submissions/P54.pdf"
+    },
+    {
+      "n.title": "Deliverables to go",
+      "n.doc_id": "ID_DeliverablesToGo.txt",
+      "n.description": "Your team maintains (or will shortly maintain) released software.You must scope and time your team’s deliverables so that their recipients will use them. Therefore, only release when users are ready to consume.",
+      "n.referenceURL": "http://www.hillside.net/plop/plop98/final_submissions/P54.pdf"
+    },
+    {
+      "n.title": "Train everyone",
+      "n.doc_id": "C_TrainEveryone.txt",
+      "n.description": "Everyone has different ideas about how the project will proceed. If the methodology is new to the company, much of this information is faulty. Therefore, provide training that both shows everyone all the essential roles, but also brings the participants together as a team.",
+      "n.referenceURL": "https://csis.pace.edu/~bergin/patterns/xpPatternsEuroV7.html"
+    },
+    {
+      "n.title": "Reciprocal visibility",
+      "n.doc_id": "CC_ReciprocalVisibility.txt",
+      "n.description": "Everyone involved in the project, including management, immediately adopts a posture of self-protection and blame avoidance. Constraints to be met: All actions that affect the state of the project are expressed in a manner that includes the whole team, All information about the state of the project is public and omnipresent in the whole team environment, All communication (actions and information sharing) take place in a “safety zone” – i.e. no one can be punished (or rewarded) for their participation in the conversation.",
+      "n.referenceURL": "http://hillside.net/plop/2006/Papers/Library/AdoptingAgilePractices.pdf"
+    },
+    {
+      "n.title": "Form follows function",
+      "n.doc_id": "TB_FormFollowsFunction.txt",
+      "n.description": "A project must delineate well-defined roles to help identify and leverage expertise relevant to emerging problems. Group closely related activities (that is, those mutually coupled in their implementation, or which manipulate the same artifacts, or that are semantically related to the same domain). Name the abstractions resulting from the grouped activities, making them into roles. The associated activities become the responsibilities (job description) of the roles. Roles, rather than activities, become the basic project building blocks.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/FormFollowsFunction"
+    },
+    {
+      "n.title": "Management by triggers",
+      "n.doc_id": "CC_ManagementByTriggers.txt",
+      "n.description": "When a project gets out of hands, adding even further levels of control and tracking is hardly possible and rarely helpful. Therefore, enable developers to take local decisions. Encourage a communication culture of small neighborhoods. Within these developers can develop a common spirit without the need to share this spirit with the entire project team. Establish very few rules to adhere to, the core of the overall architecture.",
+      "n.referenceURL": "http://ceur-ws.org/Vol-566/e4_dealingwithcomplexity.pdf"
+    },
+    {
+      "n.title": "Deploy along the grain",
+      "n.doc_id": "ID_DeployAlongTheGrain.txt",
+      "n.description": "... in the past, the roles of analysis, design and implementation have been split among different people. Deploy people along the grain of the domain. That is to say, give them dedicated, long term responsibility for a manageable piece of the system, thereby enabling them to exploit opportunities to consolidate and improve the reusability of their parts of the system as experience accrues. ",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/DeployAlongTheGrain"
+    },
+    {
+      "n.title": "Re-negotiate complexity",
+      "n.doc_id": "CC_ReNegotiateComplexity.txt",
+      "n.description": "Accepting every wish that a stakeholder mentions limits the project’s options to make decisions that fit its situations. Therefore, renegotiate all factors that contribute to the overall complexity, as soon as you become aware of them. (stakeholders may presrcibe the team size, ...)",
+      "n.referenceURL": "http://ceur-ws.org/Vol-566/e4_dealingwithcomplexity.pdf"
+    },
+    {
+      "n.title": "Participant observation",
+      "n.doc_id": "A_ParticipantObservation.txt",
+      "n.description": "Even though you are assembling a team that includes most of the roles, customer to coder, communication is still role-to-role with lots of interpretation across the communication channel. Live with, eat with, work with, and empathize with the other members of your team. Pair programming is only the beginning – do some pair testing, pair story writing, pair database design, pair forms entry. Have all of your people work alongside all of your other people.",
+      "n.referenceURL": "http://hillside.net/plop/2006/Papers/Library/AdoptingAgilePractices.pdf"
+    }
+  ],
+  "upphases": [
+    {
+      "phase": "Construction",
+      "count": 4
+    },
+    {
+      "phase": "Inception",
+      "count": 6
+    },
+    {
+      "phase": "Elaboration",
+      "count": 8
+    },
+    {
+      "phase": "Transition",
+      "count": 4
+    }
+  ],
+  "emotionlandscape": {
+    "joy": 26,
+    "anticipation": 43,
+    "sadness": 19,
+    "disgust": 9,
+    "anger": 15,
+    "fear": 25,
+    "surprise": 16,
+    "trust": 100
+  }
+}

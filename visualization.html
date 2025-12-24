@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>rhea.framework Knowledge Base</title>
+    <meta name="Rhea Reference Model" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/css/select2.min.css">
+    <style>
+  	   .custom-file-control:after {
+  	       content: attr(data-content) !important;
+  	   }
+    </style>
+	<style>
+		/* Original font styling */
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+			font-size: 1rem;
+			line-height: 1.5;
+		}
+
+	    .node {
+	        font: 300 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	        fill: #bbb;
+	    }
+
+	    .node:hover {
+	        fill: #000;
+	    }
+
+	    .link {
+	        stroke: linen;
+	        fill: none;
+	        pointer-events: none;
+	    }
+
+	    .node:hover,
+	    .node--source,
+	    .node--target {
+	        font-weight: 300;
+	    }
+
+	    .node--source {
+	        fill: #2ca02c;
+			stroke-opacity: .4;
+	    }
+
+	    .node--target {
+	        fill: #d62728;
+			stroke-opacity: .4;
+	    }
+
+	    .link--source,
+	    .link--target {
+	    }
+
+	    .link--source {
+	        stroke: #d62728;
+	    }
+
+	    .link--target {
+	        stroke: #2ca02c;
+	    }
+	
+		.svg-container {
+		    display: inline-block;
+		    position: relative;
+		    width: 100%;
+		    padding-bottom: 100%; /* aspect ratio */
+		    vertical-align: top;
+		    overflow: hidden;
+		}
+		.svg-content-responsive {
+		    display: inline-block;
+		    position: absolute;
+		    top: 10px;
+		    left: 0;
+		}
+
+		/* Bootstrap 5 compatibility fixes */
+		.mr-auto { margin-right: auto !important; }
+		.ml-1 { margin-left: 0.25rem !important; }
+		.float-right { float: right !important; }
+		.sr-only { 
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			padding: 0;
+			margin: -1px;
+			overflow: hidden;
+			clip: rect(0, 0, 0, 0);
+			white-space: nowrap;
+			border: 0;
+		}
+		
+		
+	</style>
+</head>
+<body>
+	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  	  <div class="container-fluid">
+  	    <a class="navbar-brand" href="index.html">
+  	      <img src="static/assets/rhea.svg" width="28" height="28" class="d-inline-block align-top" alt="">
+  	      rhea.framework
+  	    </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#rheanavbartoggle" aria-controls="rheanavbartoggle" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+	     <div class="collapse navbar-collapse" id="rheanavbartoggle">
+	      <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+	           <li class="nav-item">
+	             <a class="nav-link" href="index.html">Overview</a>
+	           </li>
+	           <li class="nav-item">
+	             <a class="nav-link" href="flowtemplate.html">FlowTemplate</a>
+	           </li>
+	           <li class="nav-item active">
+	             <a class="nav-link" href="ontologyview.html">KnowledgeBase<span class="visually-hidden">(current)</span></a>
+	           </li>
+	           <li class="nav-item">
+	             <a class="nav-link" href="literature.html">Literature</a>
+	           </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<nav aria-label="breadcrumb">
+	  <ol class="breadcrumb">
+	    <li class="breadcrumb-item"><a href="ontologyview.html">Knowledge Base</a></li>
+		<li class="breadcrumb-item active" aria-current="page">Visualization</li>
+	  </ol>
+	</nav>
+	<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h3 class="text-start lead my-2">Knowledge Base Visualization<button type="button" class="btn btn-outline-primary float-end" data-bs-toggle="modal" data-bs-target="#modalInformation">Data Schema</button></h3>
+		</div>
+		<div class="col-md-4">
+		</div>
+	</div>
+	<div class="row">
+	  <div class="col-md-8">
+		<div id="modelvis">
+			<div id="loading"></div>
+		  <!-- Content here -->
+		</div>
+		<div class="text-center">
+			<p>
+				The knowledge base visualization represents keyword relationships, core flow membership and crowd-sourced categorizations. <font color="red">Red</font> links are outgoing relationships. <font color="green">Green</font> links are incoming relationships. Link diameter represents connection weight.
+			</p>
+		</div>
+	  </div>
+			
+	  <div class="col-md-4">
+        <div class="detailtitle"></div>
+		<div class="detailcoreflow"></div>
+		<div class="detailbehaviour"></div>
+		<div class="detailrisk"></div>
+		<div class="detailup"></div>
+		<div class="mt-2"></div>
+        <div class="detaildescription"></div>
+		<div class="detailreferenceurl"></div>
+		<div class="mb-2"></div>
+		<div class="detailsentiment"></div>
+		<div class="detailkeywords"></div>
+		<p>
+		<div class="detailflows"></div>
+		<p>
+        <div class="mb-4">
+			<div class="detailimage"></div>
+        </div>
+	  </div>
+	</div>
+</div>
+
+<div class="modal fade bd-example-modal-lg" id="modalInformation" tabindex="-1" aria-labelledby="modalReferenceModelInformation" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">rhea.framework Knowledge Base Data Schema</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+		    <h5>Data Schema</h5>
+			<p>Reference flows are connected to others based on semantic relationships between flow keywords. By the help of crowd-sourcing each reference flow was categorized to leadership behaviours, (project) risks, and Unified Process project life-cycle phases. Reference flows were further attributed to basic emotions according to the <a href="http://www.saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm">NRC Word-Emotion Association Lexicon</a>, version 0.92. Sentiments were evaluated using the <a href="https://github.com/cjhutto/vaderSentiment">Valence Aware Dictionary and sEntiment Reasoner</a>. Each reference flow is part of one core flow.</p>
+		    <p>
+		    	<div class="text-center"><img src="static/assets/RefModModelHP.svg" width="400" height="400" alt=""></div>
+		    </p>
+			<p>
+				The knowledge base visualization represents keyword relationships and crowd-sourced categorizations. <font color="red">Red</font> links are outgoing relationships. <font color="green">Green</font> links are incoming relationships. Link diameter represents connection weight.
+			</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="py-3 bg-light">
+	 <div class="container">
+    <p class="m-0 text-center"><small>This website is designed for the demonstration and evaluation of the <i>rhea.framework</i> which was elaborated as part of a doctorate study at the University of Vienna, Austria. Version 1.3 (2020). This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>. Project source code is released under the <a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License (Version 2.0)</a>. <a href="mailto:david.haselberger@univie.ac.at">Contact</a>.
+	</small></p>
+</div>
+</footer>
+
+<!-- Bootstrap 5.3.3 JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- D3.js -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<!-- Load data from external files -->
+<script src="ontology.js"></script>
+<script src="nodes.js"></script>
+
+<script>
+// =========================================================================
+// STATIC VERSION - Data loaded from external files
+// =========================================================================
+//
+// REQUIRED FILES (in same folder as this HTML):
+//
+// 1. ontology.js - Graph structure for visualization
+//    Content: const ONTOLOGY_DATA = [your JSON array];
+//
+// 2. nodes.js - Node details (descriptions, URLs, etc.)
+//    Content: const NODE_DATA = {your JSON object};
+//
+// =========================================================================
+
+
+// =====================================================================
+// NODE DATA LOOKUP - Uses NODE_DATA from nodes.js
+// =====================================================================
+
+// Function to get node data from the loaded NODE_DATA
+function getNodeData(nodename) {
+	if (typeof NODE_DATA !== 'undefined' && NODE_DATA[nodename]) {
+		return NODE_DATA[nodename];
+	}
+	return null;
+}
+
+// =========================================================================
+// VISUALIZATION INITIALIZATION
+// =========================================================================
+
+document.getElementById('loading').innerHTML = '<div class="text-center mt-4"><span class="lead">Loading visualization...</span></div>';
+
+// Check if data is loaded
+if (typeof ONTOLOGY_DATA === 'undefined' || ONTOLOGY_DATA.length === 0) {
+	document.getElementById('loading').innerHTML = `
+		<div class="alert alert-warning mt-4" role="alert">
+			<h4 class="alert-heading">No Data Loaded</h4>
+			<p>The required data files are missing or empty.</p>
+			<hr>
+			<p class="mb-0">Required files (place in same folder as this HTML):</p>
+			<ol>
+				<li><code>ontology.js</code> - Graph structure<br>
+				    <small>Content: <code>const ONTOLOGY_DATA = [...];</code></small></li>
+				<li><code>nodes.js</code> - Node details<br>
+				    <small>Content: <code>const NODE_DATA = {...};</code></small></li>
+			</ol>
+		</div>
+	`;
+} else {
+	document.getElementById('loading').remove();
+	initVisualization();
+}
+
+function initVisualization() {
+	var myboundingrect = document.querySelector('#modelvis').getBoundingClientRect();
+
+    var diameter = myboundingrect.right - myboundingrect.left,
+        radius = diameter / 2,
+        innerRadius = radius - 120;
+
+    var cluster = d3.cluster()
+        .size([360, innerRadius]);
+
+    const line = d3.radialLine()
+        .radius(function(d) { return d.y; })
+        .angle(function(d) { return d.x / 180 * Math.PI; })
+        .curve(d3.curveBundle.beta(0.95));
+
+    var svg = d3.select("#modelvis")
+		.append("div")
+   	 	.classed("svg-container", true)
+		.append("svg")
+		.attr("preserveAspectRatio", "xMinYMin meet")
+   	 	.attr("viewBox", "0 0 " + diameter + " " + diameter)
+		.classed("svg-content-responsive", true)
+        .append("g")
+        .attr("transform", "translate(" + radius + "," + radius + ")");
+
+    var link = svg.append("g").selectAll(".link"),
+        node = svg.append("g").selectAll(".node");
+
+	// Use inline data instead of loading from file
+	var components = ONTOLOGY_DATA;
+	
+	var sizeScale = d3.scaleLinear()
+	    .domain([0, d3.max(components, function(d){ return d.weight})])
+	    .range([1, 10]);
+
+    var root = d3.hierarchy(packageHierarchy(components), (d) => d.children);
+    var links = connections(root.descendants());
+
+    cluster(root);
+
+    var nodes = root.descendants();
+	
+    link = link
+        .data(links)
+        .enter().append('path')
+        .attr('class', 'link')
+        .attr('d', d => line(d.source.path(d.target)))
+		.attr("style", function(d) { return ("stroke-width:" + d.weight + "px;");})
+		.style('stroke-opacity', function(d) { return d.weight; });
+
+    node = node
+        .data(nodes.filter(function(n) { return !n.children; }))
+		.enter()
+		.append("text")
+		.attr("class", "node")
+		.attr("id", function(d) { return d.data.key.replace(/\s+/g, ''); })
+        .attr("dy", ".31em")
+        .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + (d.y + 8) + ",0)" + (d.x < 180 ? "" : "rotate(180)"); })
+        .style("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
+        .text(function(d) { return d.data.key; })
+        .on("click", mouseovered);
+	
+	// Initialize detail panel
+	update();
+
+	// =========================================================================
+	// UPDATE FUNCTION - Displays node details
+	// =========================================================================
+	function update(freshdata) {
+		if (freshdata == undefined) {
+			document.querySelector('.detailtitle').innerHTML = '<h3 class="my-3"></h3>';
+			document.querySelector('.detailcoreflow').innerHTML = '';
+			document.querySelector('.detailbehaviour').innerHTML = '';
+			document.querySelector('.detailrisk').innerHTML = '';
+			document.querySelector('.detailup').innerHTML = '';
+			document.querySelector('.detailsentiment').innerHTML = '';
+			document.querySelector('.detaildescription').innerHTML = '<p>To start, please click a label.</p>';
+			document.querySelector('.detailreferenceurl').innerHTML = '';
+			document.querySelector('.detailkeywords').innerHTML = '';
+			document.querySelector('.detailflows').innerHTML = '';
+			document.querySelector('.detailimage').innerHTML = '';
+		} else {
+			var re = /(?:\.([^.]+))?$/;
+			var data = freshdata[0];
+			if (!data) return;
+			
+			var mycontents = data.n;
+			if (!mycontents) return;
+			
+			var mytype = mycontents.name.substring(0, mycontents.name.lastIndexOf("."));
+		    var flowstring = "solarbird.flow";
+			var upstring = "solarbird.upphase";
+			var behaviourstring = "solarbird.behaviour";
+			var riskstring = "solarbird.risk";
+			var cfstring = "solarbird.coreflow";
+			var emotionstring = "solarbird.emotion";
+			
+			if (mycontents.name.indexOf(flowstring) !== -1) {
+				var thename = re.exec(mycontents.name)[1];
+				document.querySelector('.detailtitle').innerHTML = '<h3 class="my-3">' + thename + '</h3>';
+				document.querySelector('.detailcoreflow').innerHTML = '';
+				document.querySelector('.detailbehaviour').innerHTML = '';
+				document.querySelector('.detailrisk').innerHTML = '';
+				document.querySelector('.detailup').innerHTML = '';
+				document.querySelector('.detailkeywords').innerHTML = '';
+				document.querySelector('.detaildescription').innerHTML = '';
+				document.querySelector('.detailreferenceurl').innerHTML = '';
+				document.querySelector('.detailflows').innerHTML = '';
+				
+				var nestedcontent = mycontents.connections || [];
+				var keywordsfound = false;
+				var keyw = {};
+				
+				for (var i = 0; i < nestedcontent.length; i++) {
+					var item = nestedcontent[i];
+					if (item.name && item.name.indexOf("solarbird.coreflow") !== -1) {
+						var aname = re.exec(item.name)[1];
+						document.querySelector('.detailcoreflow').innerHTML += '<span class="badge badge-info ms-1">' + aname + '</span>';
+					}
+					if (item.name && item.name.indexOf("solarbird.behaviour") !== -1) {
+						var aname = re.exec(item.name)[1];
+						document.querySelector('.detailbehaviour').innerHTML += '<span class="badge badge-success ms-1">' + aname + '</span>';
+					}
+					if (item.name && item.name.indexOf("solarbird.risk") !== -1) {
+						var aname = re.exec(item.name)[1];
+						document.querySelector('.detailrisk').innerHTML += '<span class="badge badge-danger ms-1">' + aname + '</span>';
+					}
+					if (item.name && item.name.indexOf("solarbird.upphase") !== -1) {
+						var aname = re.exec(item.name)[1];
+						document.querySelector('.detailup').innerHTML += '<span class="badge badge-light ms-1">' + aname + '</span>';
+					}
+					if (item.name && item.name.indexOf("solarbird.keyword") !== -1) {
+						if (keywordsfound == false) {
+							document.querySelector('.detailkeywords').innerHTML += '<b>Keywords:</b>';
+							keywordsfound = true;
+						}
+						var aname = re.exec(item.name)[1];
+					    keyw[aname] = Math.round(Number(item.weight));
+					}
+				}
+				
+				var sortable = [];
+				for (var keywo in keyw) {
+				    sortable.push([keywo, keyw[keywo]]);
+				}
+				sortable.sort(function(first, second) {
+				    return second[1] - first[1];
+				});
+				for (var i = 0; i < sortable.length; i++) {
+					var key = sortable[i][0];
+					document.querySelector('.detailkeywords').innerHTML += '<span class="badge badge-secondary ms-1">' + key + '(' + keyw[key] + ')</span>';
+				}
+				
+				document.querySelector('.detailsentiment').innerHTML = '';
+				var mysentiment = mycontents.sentiment;
+				if (mysentiment !== undefined && mysentiment !== null) {
+					var senticon = "~";
+					if (mysentiment < -0.3) senticon = "-";
+					if (mysentiment > 0.3) senticon = "+";
+					document.querySelector('.detailsentiment').innerHTML = '<span class="badge badge-warning mb-2">Sentiment: ' + mysentiment.toFixed(2) + ' ' + senticon + '</span>';
+				}
+				
+				document.querySelector('.detaildescription').innerHTML = mycontents.description || '';
+				if (mycontents.referenceURL) {
+					document.querySelector('.detailreferenceurl').innerHTML = '<a target="_blank" href="' + mycontents.referenceURL + '">Read more</a>';
+				}
+				document.querySelector('.detailimage').innerHTML = '';
+				if (mycontents.pictureURL) {
+					document.querySelector('.detailimage').innerHTML = '<b>Picture:</b><p><div class="text-center"><img class="img-fluid" style="max-width: 50%" src="' + mycontents.pictureURL + '" alt=""></div>';
+				}
+			}
+			else if (mycontents.name.indexOf(upstring) !== -1) {
+				renderCategoryNode(mycontents, re, 'badge-light', 'upphase');
+			}
+			else if (mycontents.name.indexOf(behaviourstring) !== -1) {
+				renderCategoryNode(mycontents, re, 'badge-success', 'behaviour');
+			}
+			else if (mycontents.name.indexOf(riskstring) !== -1) {
+				renderCategoryNode(mycontents, re, 'badge-danger', 'risk');
+			}
+			else if (mycontents.name.indexOf(cfstring) !== -1) {
+				renderCategoryNode(mycontents, re, 'badge-info', 'coreflow');
+			}
+			else if (mycontents.name.indexOf(emotionstring) !== -1) {
+				renderCategoryNode(mycontents, re, 'badge-warning', 'emotion');
+			}
+		}
+	}
+	
+	function renderCategoryNode(mycontents, re, badgeClass, nodeType) {
+		var thename = re.exec(mycontents.name)[1];
+		document.querySelector('.detailtitle').innerHTML = '<h3 class="my-3">' + thename + ' <span class="badge ' + badgeClass + '">&nbsp;&nbsp;</span></h3>';
+		document.querySelector('.detailcoreflow').innerHTML = '';
+		document.querySelector('.detailbehaviour').innerHTML = '';
+		document.querySelector('.detailrisk').innerHTML = '';
+		document.querySelector('.detailup').innerHTML = '';
+		document.querySelector('.detailkeywords').innerHTML = '';
+		document.querySelector('.detaildescription').innerHTML = '';
+		document.querySelector('.detailreferenceurl').innerHTML = '';
+		document.querySelector('.detailflows').innerHTML = '';
+		document.querySelector('.detailsentiment').innerHTML = '';
+		document.querySelector('.detailimage').innerHTML = '';
+		
+		var nestedcontent = mycontents.connections || [];
+		var keywordsfound = false;
+		var flowsfound = false;
+		var keyw = {};
+		var flowdict = {};
+		
+		for (var i = 0; i < nestedcontent.length; i++) {
+			var item = nestedcontent[i];
+			if (item.name && item.name.indexOf("solarbird.keyword") !== -1) {
+				if (!keywordsfound) {
+					document.querySelector('.detailkeywords').innerHTML += '<b>Keywords:</b>';
+					keywordsfound = true;
+				}
+				var aname = re.exec(item.name)[1];
+			    keyw[aname] = Math.round(Number(item.weight));
+			}
+			if (item.name && item.name.indexOf("solarbird.flow") !== -1) {
+				if (!flowsfound) {
+					document.querySelector('.detailflows').innerHTML += '<b>Related Reference Flows:</b>';
+					flowsfound = true;
+				}
+				var aname = re.exec(item.name)[1];
+			    flowdict[aname] = Math.round(Number(item.weight));
+			}
+		}
+		
+		// Sort and display keywords
+		var sortable = [];
+		for (var keywo in keyw) {
+		    sortable.push([keywo, keyw[keywo]]);
+		}
+		if (sortable.length > 0) {
+			sortable.sort(function(first, second) { return second[1] - first[1]; });
+			for (var i = 0; i < sortable.length; i++) {
+				var key = sortable[i][0];
+				document.querySelector('.detailkeywords').innerHTML += '<span class="badge badge-secondary ms-1">' + key + '</span>';
+			}
+		}
+		
+		// Sort and display related flows
+		var sortabletwo = [];
+		for (var flo in flowdict) {
+		    sortabletwo.push([flo, flowdict[flo]]);
+		}
+		if (sortabletwo.length > 0) {
+			sortabletwo.sort(function(first, second) { return second[1] - first[1]; });
+			for (var i = 0; i < sortabletwo.length; i++) {
+				var fl = sortabletwo[i][0];
+				var id = fl.replace(/\s+/g, '');
+				document.querySelector('.detailflows').innerHTML += '<button type="button" onclick="helperOvered(\'' + id + '\')" class="btn btn-sm btn-outline-info mt-1 mb-1 ms-1 me-1">' + fl + '</button>';
+			}
+		}
+		
+		if (mycontents.description) {
+			document.querySelector('.detaildescription').innerHTML = mycontents.description;
+		}
+		if (mycontents.referenceURL) {
+			document.querySelector('.detailreferenceurl').innerHTML = '<a target="_blank" href="' + mycontents.referenceURL + '">Read more</a>';
+		}
+		if (mycontents.pictureURL) {
+			document.querySelector('.detailimage').innerHTML = '<b>Picture:</b><p><div class="text-center"><img class="img-fluid" style="max-width: 50%" src="' + mycontents.pictureURL + '" alt=""></div>';
+		}
+	}
+	
+	// Make helperOvered globally accessible
+	window.helperOvered = function(somenodeid) {
+		var nod = d3.select('#' + somenodeid).datum();
+		if (nod) {
+			mouseovered(nod);
+		}
+	};
+
+    function mouseovered(d) {
+		// Get node data from inline lookup
+		var data = getNodeData(d.data.url);
+		if (data) {
+			update(data);
+		}
+		
+		node.each(function(n) { n.target = n.source = false; });
+
+        link
+            .classed("link--target", function(l) { if (l.target === d) return l.source.source = true; })
+            .classed("link--source", function(l) { if (l.source === d) return l.target.target = true; })
+            .filter(function(l) { return l.target === d || l.source === d; })
+            .each(function() { this.parentNode.appendChild(this); });
+
+        node
+            .classed("node--target", function(n) { return n.target; })
+            .classed("node--source", function(n) { return n.source; });			
+    }
+
+    function mouseouted(d) {
+        link
+            .classed("link--target", false)
+            .classed("link--source", false);
+
+        node
+            .classed("node--target", false)
+            .classed("node--source", false);
+    }
+
+    function packageHierarchy(components) {
+        var map = {};
+
+		function find(name, data) {
+		    var node = map[name], i;
+		    if (!node) {
+			  node = map[name] = data || {name: name, children: [], url: "/"}; 
+		      if (name.length) {
+		        node.parent = find(name.substring(0, i = name.lastIndexOf(".")));
+		        node.parent.children.push(node);
+		        node.key = name.substring(i + 1); 
+				node.url = node.name;
+		      }
+		    }
+		    return node;
+        }
+
+        components.forEach(function(d) {
+            find(d.name, d);
+        });
+
+        return map[""];
+    }
+
+    function connections(nodes) {
+        var map = {},
+        conns = [];
+
+        nodes.forEach(function(d) {
+            map[d.data.name] = d;
+        });
+
+        nodes.forEach(function(d) {
+            if (d.data.connections) d.data.connections.forEach(function(i) {
+                conns.push({source: map[d.data.name], target: map[i.name], weight: i.weight/100});
+            });
+        });
+
+        return conns;
+    }
+}
+</script>
+</body>
+</html>

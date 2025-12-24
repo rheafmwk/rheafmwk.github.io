@@ -1,12 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0; url='https://rheafmwk.io'" />
-    <title>Redirecting...</title>
+  <meta charset="utf-8">
+  <title>rhea.framework Knowledge Base</title>
+  <meta name="Rhea Facilitate Team Cohesion" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./static/css/select2.min.css">
+  <style>
+  	.custom-file-control:after {
+  	    content: attr(data-content) !important;
+  	}
+  </style>
 </head>
 <body>
-    <p>If you are not redirected automatically, follow this <a href="https://rheafmwk.io">link</a>.</p>
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="./static/assets/rhea.svg" width="28" height="28" class="d-inline-block align-top" alt="">
+  	    rhea.framework
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#rheanavbartoggle" aria-controls="rheanavbartoggle" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="rheanavbartoggle">
+      <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Overview</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="flowtemplate.html">FlowTemplate</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="ontologyview.html">KnowledgeBase</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="literature.html">Literature</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="ontologyview.html">Knowledge Base</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Facilitate Team Cohesion</li>
+  </ol>
+</nav>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+        <h3 class="text-left lead my-2 mb-4">Facilitate Team Cohesion<div class="text-center"><img src="./static/assets/FacilitateTeamCohesion.svg" width="100px"></div></h3>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-12"><div class="text-center lead mt-5"><b>Key Takeaways</b></div></div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 mt-4">
+      <ul>
+        <li><small class="lead">In a cohesive team, the team satisfies emotional needs of its members.</small></li>
+        <li><small class="lead">Facilitating team cohesion may include coordinating to establish and facilitate communication, and to manage meaning to increase security and trust within the team.</small></li>
+        <li><small class="lead">Cohesion can foster team members' relative independence in opinion from each other.</small></li>
+        <li><small class="lead">A cohesive team needs ways to aggregate all sorts of sharing of involved participants to be able to learn from each others experience.</small></li>
+        <li><small class="lead">Team leaders facilitating team cohesion are balancing attentive focus between maintaining the team, or holding the team together, and achieving the team task.</small></li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-12"><div class="text-center lead mt-5"><b>Centrality in the Project Life-Cycle</b></div></div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 mt-4"><div class="progress" id="progressBar"></div></div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-12"><div class="text-center lead mt-5"><b>Emotional Landscape</b></div></div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 mt-4">
+      <div class="text-center"><div id="emoContainer"></div></div>
+      <p><div class="text-center small">This emotional landscape is derived from associated <i>reference flows</i> based on the <a href="http://www.saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm">NRC Word-Emotion Association Lexicon</a> (v0.92). Find out more about Plutchik's Wheel of Emotions <a href="https://en.wikipedia.org/wiki/Contrasting_and_categorization_of_emotions#Plutchik's_wheel_of_emotions">here</a>.</div></p>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-12"><div class="text-center lead mt-5"><b>Related Reference Flows</b></div></div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 mt-4"></div>
+    <div class="col-md-8 mt-4">
+      <div class="accordion" id="relrefflows"></div>
+    </div>
+    <div class="col-md-2 mt-4"></div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 mt-4 mb-4">
+      <div class="text-center">Get an in-depth view on <i>reference flow</i> connections with the knowledge base <a href="visualization.html" class="btn btn-outline-success btn-sm my-2 my-sm-0" role="button">Visualization</a>.</div>
+    </div>
+  </div>
+</div>
+<footer class="py-3 bg-light">
+  <div class="container">
+    <p class="m-0 text-center"><small>This website is designed for the demonstration and evaluation of the <i>rhea.framework</i> which was elaborated as part of a doctorate study at the University of Vienna, Austria. Version 1.3 (2020). This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>. Project source code is released under the <a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License (Version 2.0)</a>. <a href="mailto:david.haselberger@univie.ac.at">Contact</a>.</small></p>
+  </div>
+</footer>
+
+<!-- D3.js for emotional landscape visualization -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<!-- Bootstrap 5.3.3 JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script>
+// Inline JSON data
+const flowData = {
+  "relatedflows": [
+    {
+      "n.title": "The Water Cooler",
+      "n.doc_id": "WT_WaterCooler.txt",
+      "n.description": "Organizations need cross-team structures that guard against isolation. Encourage social structures that are unrelated to workplace structures and which will likely cut across the formal partitioning of the organization.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/TheWaterCooler"
+    },
+    {
+      "n.title": "Protect the victim",
+      "n.doc_id": "RM_ProtectTheVictim.txt",
+      "n.description": "One of the group members made a mistake that has influence on the entire project. The other group members get upset at the individual. Anyone may make a mistake, but making one should not deteriorate team spirit, and group behavior can escalate sporadic anger into aggressive behavior towards one person. Look for non-verbal clues for disagreement or discomfort in group members' behavior, Respond accordingly: either change activity, make a break even if it is not scheduled yet, or even stop whatever it is you're doing altogether and inquire of the group as to what may be disturbing them.",
+      "n.referenceURL": "http://hillside.net/europlop/HillsideEurope/Papers/EuroPLoP2003/2003_Homsky_MorePatternsForGroupLeadership.pdf"
+    },
+    {
+      "n.title": "Cohesive team",
+      "n.doc_id": "V_CohesiveTeam.txt",
+      "n.description": "You have an assigned development team, … . You must now convert individual capabilities into a team productivity. Therefore, stimulate an interest in the problem space, and use it as the common motivation to build team cohesion.",
+      "n.referenceURL": "http://www.hillside.net/plop/plop98/final_submissions/P54.pdf"
+    },
+    {
+      "n.title": "Don't interrupt an interrupt",
+      "n.doc_id": "CC_DontInterruptAnInterrupt.txt",
+      "n.description": "It's important to balance a desire that someone always makes progress with the thrashing that can accompany short-term priority calls. If a developer is already working in \"interrupt mode\" on a critical issue, don't put that work aside until it is complete or until that issue itself becomes hopelessly tangled.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/DontInterruptAnInterrupt"
+    },
+    {
+      "n.title": "Lock em up together",
+      "n.doc_id": "TB_LockEmUpTogether.txt",
+      "n.description": "A team of different people must come up with a single, coherent architecture. Gather everyone together to work out the architecture (or some other strategic issue). Put them all in the same room (literally.)",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/LockEmUpTogether"
+    },
+    {
+      "n.title": "Body speaks",
+      "n.doc_id": "CC_BodySpeaks.txt",
+      "n.description": "Group members may have needs that should be met, or have important information that the group leader should be aware of. However, group members may be reluctant or too shy to openly express problems, present issues or preferences that bother them. They may think that criticism is disrespectful, or show lack of manners. Look for non-verbal clues for disagreement or discomfort in group members' behavior, Respond accordingly: either change activity, make a break even if it is not scheduled yet, or even stop whatever it is you're doing altogether and inquire of the group as to what may be disturbing them.",
+      "n.referenceURL": "http://hillside.net/europlop/HillsideEurope/Papers/EuroPLoP2003/2003_Homsky_MorePatternsForGroupLeadership.pdf"
+    },
+    {
+      "n.title": "Piecemeal growth",
+      "n.doc_id": "ID_PiecemealGrowth.txt",
+      "n.description": "The project team needs to react to incomprehensible situations, dealing with many issues and requirements at once. Therefore, introduce an attitude into the project to solve problems one at a time. Reduce the amount of things to care for at once by focusing on the next few important things, only one or two per person. Adapt an attitude that actively refuses to plan ahead for complex issues, even if that would seem smart and apparently could reduce the overall effort. The question to ask is: what could we try or show next?",
+      "n.referenceURL": "http://ceur-ws.org/Vol-566/e4_dealingwithcomplexity.pdf"
+    },
+    {
+      "n.title": "Show and tell",
+      "n.doc_id": "TL_ShowAndTell.txt",
+      "n.description": "You must eliminate the re-invention and wasted effort which results from general design and code solutions which are not communicated. Therefore, conduct a periodic discussion session where individual's problems and solutions are reviewed and shared.",
+      "n.referenceURL": "http://www.hillside.net/plop/plop98/final_submissions/P54.pdf"
+    },
+    {
+      "n.title": "Grand finale",
+      "n.doc_id": "R_GrandeFinale.txt",
+      "n.description": "Having put so much effort into creating and maintaining group cohesion it is distressing for both group members and leaders to see it end. Especially with a successful group, when the project ends group members need a closure to the experience, and wish to preserve the good relations created, the memory of a good experience. Make a 'grand finale' to your program. Use the good feelings to give a \"final good taste\" at the closure of the experience.",
+      "n.referenceURL": "http://hillside.net/europlop/HillsideEurope/Papers/EuroPLoP2003/2003_Homsky_MorePatternsForGroupLeadership.pdf"
+    },
+    {
+      "n.title": "Guruing by walking around",
+      "n.doc_id": "RM_GuruingByWalkingAround.txt",
+      "n.description": "…you aren't \"managing\" so much as you are \"mentoring\". It's hands-on teaching and learning, with frequent two-way dialogue (rather than lecturing). Keep your door open. … Be patient with newbies and do some hand-holding if necessary. And always try to share your knowledge rather than force-feeding it to others.",
+      "n.referenceURL": "http://wiki.c2.com/?GuruingByWalkingAround"
+    },
+    {
+      "n.title": "Ambassador",
+      "n.doc_id": "RM_Ambassador.txt",
+      "n.description": "Members of a team in one location find it hard to understand the point of view of members in another location. ... When misunderstandings caused by lack of knowledge of local conditions escalate, the trust vital for cooperation between sites breakes down. Send an ambassador from one location to another, for an extended period. While visits build trust, longer visits maintain more trust for longer.",
+      "n.referenceURL": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.96.3260&rep=rep1&type=pdf"
+    },
+    {
+      "n.title": "Group validation",
+      "n.doc_id": "GV_GroupValidation.txt",
+      "n.description": "Product quality is crucial to the success of the enterprise. Even before engaging QA, the development team — including the Customer — can validate the design.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/GroupValidation"
+    },
+    {
+      "n.title": "Adhoc meeting",
+      "n.doc_id": "MC_AdhocMeeting.txt",
+      "n.description": "There are events that cannot wait for the next general meeting. If an important client reported a severe crash of the system, you'd better react soon. Still, you may be reluctant to disturb everyone in her or his work or it might be unsure who can contribute to the solution. When the issue arises, call everyone for an immediate adhoc meeting. Only those who are interested in the issue are going to participate. During this adhoc meeting start with a description of the problem at hand and then decide whether to go on to solve the issue immediately or whether to schedule another meeting. Limit the meeting to ten minutes, than ask who thinks that he or she can contribute to the solution. Give a break, so that everyone who answered no can leave without embarresment.",
+      "n.referenceURL": "http://hillside.net/europlop/HillsideEurope/Papers/EuroPLoP2002/2002_Coldewey_InteractionPatternsOfAgileDevelopment.pdf"
+    },
+    {
+      "n.title": "Solidarity ritual",
+      "n.doc_id": "R_SolidarityRitual.txt",
+      "n.description": "You are an organization that is working to establish and maintain a 'whole-team' … . Your team is in the process of building itself and establishing its culture. Different people bring different food for lunch, may speak different languages around the water cooler, have different artifacts in their cubicles. Assertion of identity, gender, and ethnicity are powerful forces acting on all of us. … Solidarity rituals to help teams establish their individuality and pride in their work. Celebrate Success when a team passes a major milestone and remember important events as a team.",
+      "n.referenceURL": "http://hillside.net/plop/2006/Papers/Library/AdoptingAgilePractices.pdf"
+    },
+    {
+      "n.title": "Social tracker",
+      "n.doc_id": "CC_SocialTracker.txt",
+      "n.description": "The tracker needs fine-grained knowledge of the state of the project, but the knowledge is in individual heads. Therefore, the tracker spends five minutes or so with everyone at least twice a week, preferably daily.",
+      "n.referenceURL": "https://pdfs.semanticscholar.org/4b2b/643707a62c11d0a2da4d5c8572ca9d94ac2a.pdf"
+    },
+    {
+      "n.title": "End to end",
+      "n.doc_id": "ID_EndToEnd.txt",
+      "n.description": "When we take an interest in the customer's business and actively help them develop it, we make an investment towards our own future. Therefore: when pitching and planning, get input from designers, developers and people with experience in maintaining systems, come up with the next chapter in the product's story and pitch that as well. During the project get developers and designers working closely together.",
+      "n.referenceURL": "http://www.vikingplop.org/pastevents/vikingplop2012/papers/9.pdf"
+    },
+    {
+      "n.title": "Informal labor plan",
+      "n.doc_id": "TD_InformalLaborPlan.txt",
+      "n.description": "Developers will often find themselves obligated to more than one in-progress development task at a time. Let individuals devise their own short-term plans.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/InformalLaborPlan"
+    },
+    {
+      "n.title": "Coffee kitchen",
+      "n.doc_id": "WT_CoffeeKitchen.txt",
+      "n.description": "The daily work gives little room for social interaction beside the current problem. Still, a project needs space for the team members to interact just as humans, not as professionals, and creative work needs slack. Provide a separate coffee kitchen for social interaction. Offer opportunities to have coffee, tea, or other beverages there and provide a place to store private mugs. Make the place comfortable enough so people like to go there, but be careful with seating facilities unless you have pregnant women in the team or others who need to sit down.",
+      "n.referenceURL": "http://hillside.net/europlop/HillsideEurope/Papers/EuroPLoP2002/2002_Coldewey_InteractionPatternsOfAgileDevelopment.pdf"
+    },
+    {
+      "n.title": "Reaffirmation ritual",
+      "n.doc_id": "R_ReaffirmationRitual.txt",
+      "n.description": "You are an organization that is working to establish and maintain a 'whole-team' that is does not suffer from Us vs. Them via Reciprocal visibility. Your team members tend to get 'heads-down' in their work and, especially with larger teams, the do not communicate outside of their tasks. Solidarity Rituals to help teams establish their individuality and pride in their work. Celebrate success when a team passes a major milestone and remember important events as a team.",
+      "n.referenceURL": "http://hillside.net/plop/2006/Papers/Library/AdoptingAgilePractices.pdf"
+    },
+    {
+      "n.title": "Production potential",
+      "n.doc_id": "CC_ProductionPotential.txt",
+      "n.description": "You observe a great deal of activity and communication, but little apparent progress on the software. You must translate this team activity into an accurate and fair assessment of team progress. Therefore, measure team progress by a weighted mix of assessed progress in all spheres of work.Viewing progress in terms of the team's production potential helps to recognise the value of work done which contributes only indirectly to deliverables.",
+      "n.referenceURL": "http://www.hillside.net/plop/plop98/final_submissions/P54.pdf"
+    }
+  ],
+  "upphases": [
+    {"phase": "Construction", "count": 5},
+    {"phase": "Elaboration", "count": 8},
+    {"phase": "Transition", "count": 3},
+    {"phase": "Inception", "count": 4}
+  ],
+  "emotionlandscape": {
+    "joy": 42,
+    "anticipation": 64,
+    "sadness": 37,
+    "disgust": 15,
+    "anger": 18,
+    "fear": 37,
+    "surprise": 28,
+    "trust": 100
+  }
+};
+
+// Process data on page load
+document.addEventListener('DOMContentLoaded', function() {
+  handleData(flowData);
+});
+
+function handleData(data) {
+  const flows = data.relatedflows || [];
+  console.log(flows.length + " flows loaded");
+  
+  // Build accordion for reference flows
+  const accordion = document.getElementById('relrefflows');
+  
+  flows.forEach((flow, x) => {
+    const fl = flow["n.title"];
+    const desc = flow["n.description"];
+    const ref = flow["n.referenceURL"];
+    
+    if (fl) {
+      const id = fl.replace(/\s+/g, '').replace(/[^a-zA-Z0-9]/g, '') + x;
+      
+      const item = document.createElement('div');
+      item.className = 'accordion-item';
+      item.innerHTML = `
+        <h2 class="accordion-header" id="heading${id}">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${id}" aria-expanded="false" aria-controls="collapse${id}">
+            ${fl}
+          </button>
+        </h2>
+        <div id="collapse${id}" class="accordion-collapse collapse" aria-labelledby="heading${id}" data-bs-parent="#relrefflows">
+          <div class="accordion-body">
+            ${desc || ''} <a target="_blank" href="${ref}">Read more</a>
+          </div>
+        </div>
+      `;
+      accordion.appendChild(item);
+    }
+  });
+  
+  // UP Phases progress bar
+  const upph = data.upphases || [];
+  const unprphases = ["Inception", "Elaboration", "Construction", "Transition"];
+  const colorSpace = ["#9E9E9E", "#616161", "#424242", "#212121"];
+  const progressBar = document.getElementById('progressBar');
+  
+  unprphases.forEach((phaseName, y) => {
+    const phaseData = upph.find(p => p.phase === phaseName);
+    if (phaseData) {
+      const percent = Math.round((phaseData.count / flows.length) * 100);
+      if (percent > 0) {
+        const bar = document.createElement('div');
+        bar.className = 'progress-bar';
+        bar.setAttribute('role', 'progressbar');
+        bar.style.width = percent + '%';
+        bar.style.backgroundColor = colorSpace[y];
+        bar.setAttribute('aria-valuenow', percent);
+        bar.setAttribute('aria-valuemin', '0');
+        bar.setAttribute('aria-valuemax', '100');
+        bar.textContent = phaseName;
+        progressBar.appendChild(bar);
+      }
+    }
+  });
+  
+  // Emotional landscape
+  const emo = data.emotionlandscape || {};
+  const emoCircles = [
+    { "x_axis": 50, "y_axis": 140, "radius": Number(emo["joy"] || 0) / 2, "color": "#fce03b", "name": "Joy" },
+    { "x_axis": 152, "y_axis": 125, "radius": Number(emo["anticipation"] || 0) / 2, "color": "#ff9618", "name": "Anticipation" },
+    { "x_axis": 254, "y_axis": 110, "radius": Number(emo["anger"] || 0) / 2, "color": "#fa0044", "name": "Anger" },
+    { "x_axis": 356, "y_axis": 100, "radius": Number(emo["disgust"] || 0) / 2, "color": "#aa6dba", "name": "Disgust" },
+    { "x_axis": 458, "y_axis": 100, "radius": Number(emo["fear"] || 0) / 2, "color": "#00ad52", "name": "Fear" },
+    { "x_axis": 560, "y_axis": 110, "radius": Number(emo["trust"] || 0) / 2, "color": "#80d52e", "name": "Trust" },
+    { "x_axis": 662, "y_axis": 125, "radius": Number(emo["sadness"] || 0) / 2, "color": "#6a9bcb", "name": "Sadness" },
+    { "x_axis": 764, "y_axis": 140, "radius": Number(emo["surprise"] || 0) / 2, "color": "#00a7c3", "name": "Surprise" }
+  ];
+  
+  const svgContainer = d3.select('#emoContainer')
+    .append("div")
+    .classed("svg-container", true)
+    .append("svg")
+    .attr("width", 816)
+    .attr("height", 200)
+    .attr("viewBox", "0 0 816 200")
+    .attr("preserveAspectRatio", "xMidYMid meet");
+  
+  const circles = svgContainer.selectAll("circle")
+    .data(emoCircles)
+    .enter()
+    .append("circle");
+  
+  circles
+    .attr("cx", d => d.x_axis)
+    .attr("cy", d => d.y_axis)
+    .attr("r", d => d.radius)
+    .style("fill", d => d.color);
+  
+  const text = svgContainer.append("svg:g").selectAll("g")
+    .data(emoCircles)
+    .enter().append("svg:g");
+  
+  text.append("svg:text")
+    .attr("x", d => d.x_axis)
+    .attr("y", 190)
+    .attr("text-anchor", "middle")
+    .style("font-size", "12px")
+    .style("font-family", "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif")
+    .text(d => d.name);
+}
+</script>
 </body>
 </html>

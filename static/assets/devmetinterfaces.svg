@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-101 -142 1881 488" width="1881" height="488">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="15" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="Arrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="15" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="8" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="14" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="1071.4286" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-style="italic" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-BoldItalic"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="11" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.8.2 test 
+    <dc:date>2018-08-12 22:43:36 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" fill-opacity="1" stroke-dasharray="none" stroke="none" stroke-opacity="1" fill="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_61">
+        <rect x="-100" y="224.05686" width="1878.8462" height="102.76923" fill="white"/>
+        <rect x="-100" y="224.05686" width="1878.8462" height="102.76923" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_60">
+        <rect x="-100" y="133.23077" width="1878.8462" height="91.76923" fill="#ccc"/>
+        <rect x="-100" y="133.23077" width="1878.8462" height="91.76923" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_59">
+        <rect x="-100" y="42.23077" width="1878.8462" height="91.76923" fill="#999"/>
+        <rect x="-100" y="42.23077" width="1878.8462" height="91.76923" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_58">
+        <rect x="-100" y="-44.153846" width="1878.8462" height="87.15385" fill="#878787"/>
+        <rect x="-100" y="-44.153846" width="1878.8462" height="87.15385" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_57">
+        <rect x="-100" y="-141" width="1878.8462" height="96.76923" fill="#6b6b6b"/>
+        <rect x="-100" y="-141" width="1878.8462" height="96.76923" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_3">
+        <rect x="214" y="236" width="108" height="80" fill="white"/>
+        <rect x="214" y="236" width="108" height="80" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(219 258.58)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="16.2175" y="14">Prototype </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="4.2625" y="31.42">Team Identity</tspan>
+        </text>
+      </g>
+      <g id="Graphic_4">
+        <rect x="540" y="236" width="108" height="80" fill="white"/>
+        <rect x="540" y="236" width="108" height="80" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(545 258.58)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="8.11" y="14">Organize for </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="11.08" y="31.42">Complexity</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5">
+        <rect x="88" y="236" width="108" height="80" fill="white"/>
+        <rect x="88" y="236" width="108" height="80" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(93 249.87)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="18.865" y="14">Facilitate </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="31.075" y="31.42">Team </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="17.1925" y="48.839996">Cohesion</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <rect x="1221" y="236" width="108" height="80" fill="white"/>
+        <rect x="1221" y="236" width="108" height="80" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1226 249.87)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="7.0525" y="14">Structure for </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="33.8575" y="31.42">Task </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="4.5325" y="48.839996">Effectiveness</tspan>
+        </text>
+      </g>
+      <g id="Graphic_7">
+        <path d="M 743.4 -41 L 786.6 -41 L 819 -17 L 819 15 L 786.6 39 L 743.4 39 L 711 15 L 711 -17 Z" fill="white"/>
+        <path d="M 743.4 -41 L 786.6 -41 L 819 -17 L 819 15 L 786.6 39 L 743.4 39 L 711 15 L 711 -17 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(716 -9.709999)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="15.7975" y="14">Feedback</tspan>
+        </text>
+      </g>
+      <g id="Graphic_8">
+        <path d="M 255.1 -41 L 309.9 -41 L 351 -17 L 351 15 L 309.9 39 L 255.1 39 L 214 15 L 214 -17 Z" fill="white"/>
+        <path d="M 255.1 -41 L 309.9 -41 L 351 -17 L 351 15 L 309.9 39 L 255.1 39 L 214 15 L 214 -17 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(219 -18.419998)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="27.38" y="14">Embracing </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="37.385" y="31.42">Change</tspan>
+        </text>
+      </g>
+      <g id="Graphic_9">
+        <path d="M 1581.9 -42.884615 L 1627.1 -42.884615 L 1661 -18.884615 L 1661 13.115385 L 1627.1 37.115385 L 1581.9 37.115385 L 1548 13.115385 L 1548 -18.884615 Z" fill="white"/>
+        <path d="M 1581.9 -42.884615 L 1627.1 -42.884615 L 1661 -18.884615 L 1661 13.115385 L 1627.1 37.115385 L 1581.9 37.115385 L 1548 13.115385 L 1548 -18.884615 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1553 -20.304614)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="18.4325" y="14">Assuming </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="18.995" y="31.42">Simplicity</tspan>
+        </text>
+      </g>
+      <g id="Graphic_11">
+        <path d="M 1645.527 139.11538 L 1755.3192 139.11538 C 1768.306 139.11538 1778.8462 157.03538 1778.8462 179.11538 C 1778.8462 201.19538 1768.306 219.11538 1755.3192 219.11538 L 1645.527 219.11538 C 1632.54 219.11538 1622 201.19538 1622 179.11538 C 1622 157.03538 1632.54 139.11538 1645.527 139.11538 Z" fill="white"/>
+        <path d="M 1645.527 139.11538 L 1755.3192 139.11538 C 1768.306 139.11538 1778.8462 157.03538 1778.8462 179.11538 C 1778.8462 201.19538 1768.306 219.11538 1755.3192 219.11538 L 1645.527 219.11538 C 1632.54 219.11538 1622 201.19538 1622 179.11538 C 1622 157.03538 1632.54 139.11538 1645.527 139.11538 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1642.6846 144.27539)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="4.2559615" y="14">Agree to pursue </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="16.750962" y="31.42">incremental, </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="17.043462" y="48.839996">evolutionary </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="33.01096" y="66.259995">change</tspan>
+        </text>
+      </g>
+      <g id="Graphic_16">
+        <path d="M 746 -122 L 754 -130 L 914 -130 L 922 -122 L 922 -58 L 914 -50 L 754 -50 L 746 -58 Z" fill="white"/>
+        <path d="M 746 -122 L 754 -130 L 914 -130 L 922 -122 L 922 -58 L 914 -50 L 754 -50 L 746 -58 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(755.4 -116.13)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="13.724999" y="14">Balance competing </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="7.214999" y="31.42">priorities to maximize </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="19.7025" y="48.839996">stakeholder value</tspan>
+        </text>
+      </g>
+      <g id="Graphic_15">
+        <path d="M 88 -122 L 96 -130 L 256 -130 L 264 -122 L 264 -58 L 256 -50 L 96 -50 L 88 -58 Z" fill="white"/>
+        <path d="M 88 -122 L 96 -130 L 256 -130 L 264 -122 L 264 -58 L 256 -50 L 96 -50 L 88 -58 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(97.4 -116.13)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="13.184999" y="14">Collaborate to align </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="14.969999" y="31.42">interests and share </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="30.39" y="48.839996">understanding</tspan>
+        </text>
+      </g>
+      <g id="Graphic_14">
+        <path d="M 933 -122 L 941 -130 L 1142 -130 L 1150 -122 L 1150 -58 L 1142 -50 L 941 -50 L 933 -58 Z" fill="white"/>
+        <path d="M 933 -122 L 941 -130 L 1142 -130 L 1150 -122 L 1150 -58 L 1142 -50 L 941 -50 L 933 -58 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(943.425 -116.13)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="12.634999" y="14">Focus on the architecture </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="9.312499" y="31.42">early to minimize risks and </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="23.975" y="48.839996">organize development</tspan>
+        </text>
+      </g>
+      <g id="Graphic_13">
+        <path d="M 1164 -121.26923 L 1172 -129.26923 L 1345 -129.26923 L 1353 -121.26923 L 1353 -57.26923 L 1345 -49.26923 L 1172 -49.26923 L 1164 -57.26923 Z" fill="white"/>
+        <path d="M 1164 -121.26923 L 1172 -129.26923 L 1345 -129.26923 L 1353 -121.26923 L 1353 -57.26923 L 1345 -49.26923 L 1172 -49.26923 L 1164 -57.26923 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1173.725 -115.39923)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="9.347499" y="14">Evolve to continuously </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="15.864999" y="31.42">obtain feedback and </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="57.82" y="48.839996">improve</tspan>
+        </text>
+      </g>
+      <g id="Graphic_20">
+        <path d="M 390.6 48.115385 L 460.8 48.115385 C 469.7424 48.115385 477 66.035385 477 88.11538 C 477 110.19538 469.7424 128.11538 460.8 128.11538 L 390.6 128.11538 L 369 88.11538 Z" fill="white"/>
+        <path d="M 390.6 48.115385 L 460.8 48.115385 C 469.7424 48.115385 477 66.035385 477 88.11538 C 477 110.19538 469.7424 128.11538 460.8 128.11538 L 390.6 128.11538 L 369 88.11538 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(384.8 70.69539)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="5.41" y="14">Adapt the </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="11.53" y="31.42">process</tspan>
+        </text>
+      </g>
+      <g id="Graphic_19">
+        <path d="M 511.6 48.115385 L 585.05 48.115385 C 594.4064 48.115385 602 66.035385 602 88.11538 C 602 110.19538 594.4064 128.11538 585.05 128.11538 L 511.6 128.11538 L 489 88.11538 Z" fill="white"/>
+        <path d="M 511.6 48.115385 L 585.05 48.115385 C 594.4064 48.115385 602 66.035385 602 88.11538 C 602 110.19538 594.4064 128.11538 585.05 128.11538 L 511.6 128.11538 L 489 88.11538 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(505.3 61.98539)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="13.1175" y="14">Balance </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="1.0275" y="31.42">stakeholder </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="11.3175" y="48.839996">priorities</tspan>
+        </text>
+      </g>
+      <g id="Graphic_18">
+        <path d="M 1324.0317 48.115385 L 1397.4817 48.115385 C 1406.8381 48.115385 1414.4317 66.035385 1414.4317 88.11538 C 1414.4317 110.19538 1406.8381 128.11538 1397.4817 128.11538 L 1324.0317 128.11538 L 1301.4317 88.11538 Z" fill="white"/>
+        <path d="M 1324.0317 48.115385 L 1397.4817 48.115385 C 1406.8381 48.115385 1414.4317 66.035385 1414.4317 88.11538 C 1414.4317 110.19538 1406.8381 128.11538 1397.4817 128.11538 L 1324.0317 128.11538 L 1301.4317 88.11538 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1317.7317 61.98539)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="1.455" y="14">Collaborate </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="17.9775" y="31.42">across </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="19.635" y="48.839996">teams</tspan>
+        </text>
+      </g>
+      <g id="Graphic_17">
+        <path d="M 636.6 48.115385 L 716.55 48.115385 C 726.7344 48.115385 735 66.035385 735 88.11538 C 735 110.19538 726.7344 128.11538 716.55 128.11538 L 636.6 128.11538 L 612 88.11538 Z" fill="white"/>
+        <path d="M 636.6 48.115385 L 716.55 48.115385 C 726.7344 48.115385 735 66.035385 735 88.11538 C 735 110.19538 726.7344 128.11538 716.55 128.11538 L 636.6 128.11538 L 612 88.11538 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(629.3 61.98539)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x=".9925" y="14">Demonstrate </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="26.56" y="31.42">value </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="12.4" y="48.839996">iteratively</tspan>
+        </text>
+      </g>
+      <g id="Graphic_22">
+        <path d="M 1443.1493 48.115385 L 1523.0993 48.115385 C 1533.2837 48.115385 1541.5493 66.035385 1541.5493 88.11538 C 1541.5493 110.19538 1533.2837 128.11538 1523.0993 128.11538 L 1443.1493 128.11538 L 1418.5493 88.11538 Z" fill="white"/>
+        <path d="M 1443.1493 48.115385 L 1523.0993 48.115385 C 1533.2837 48.115385 1541.5493 66.035385 1541.5493 88.11538 C 1541.5493 110.19538 1533.2837 128.11538 1523.0993 128.11538 L 1443.1493 128.11538 L 1418.5493 88.11538 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1435.8493 61.98539)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="7.1125" y="14">Elevate the </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="20.455" y="31.42">level of </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="6.5575" y="48.839996">abstraction</tspan>
+        </text>
+      </g>
+      <g id="Graphic_21">
+        <path d="M 1200.2148 48.115385 L 1280.1648 48.115385 C 1290.3492 48.115385 1298.6148 66.035385 1298.6148 88.11538 C 1298.6148 110.19538 1290.3492 128.11538 1280.1648 128.11538 L 1200.2148 128.11538 L 1175.6148 88.11538 Z" fill="white"/>
+        <path d="M 1200.2148 48.115385 L 1280.1648 48.115385 C 1290.3492 48.115385 1298.6148 66.035385 1298.6148 88.11538 C 1298.6148 110.19538 1290.3492 128.11538 1280.1648 128.11538 L 1200.2148 128.11538 L 1175.6148 88.11538 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1192.9148 61.98539)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="23.6425" y="14">Focus </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="1.69" y="31.42">continuously </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="11.5525" y="48.839996">on quality</tspan>
+        </text>
+      </g>
+      <g id="Line_23">
+        <path d="M 1561.151 219.11538 C 1487.799 239.93133 1402.8538 256.83797 1338.7786 267.12204" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_24">
+        <path d="M 1658.5425 219.11538 C 1561.7549 238.05045 1430.9475 257.14908 1338.828 268.62128" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_25">
+        <path d="M 403.57693 219.02843 C 388.3348 228.51243 359.51114 237.6316 331.51286 245.77103" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_26">
+        <path d="M 752.6021 39 C 739.82165 93.59998 723.7865 184.2283 723.7865 184.2283 C 723.7865 184.2283 689.51956 207.82868 656.1039 231.20934" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_27">
+        <path d="M 774.1483 39 C 785.0286 92.45417 801.7732 180.61116 803.7865 181.37116 C 871.0698 206.5049 1078.1879 248.21367 1211.206 267.77346" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_28">
+        <path d="M 280.527 39 C 277.92035 88.46948 273.32808 172.48466 270.48675 226.10984" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_29">
+        <path d="M 284.72504 39 C 286.54225 100.01127 288.13776 209.38933 290.2361 210.2016 C 387.4452 247.70122 461.6385 262.70143 530.1595 270.40314" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_30">
+        <path d="M 1581.8223 37.060407 C 1551.828 91.82764 1502.5712 183.6125 1500.4925 184.56057 C 1458.2968 203.87473 1392.3039 233.75538 1338.2465 254.71283" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_31">
+        <path d="M 188.26033 -50 C 205.38104 17.40738 234.9406 153.0563 253.21835 226.4015" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_32">
+        <path d="M 178.33358 -50 C 181.0796 27.17228 184.41194 189.12907 186.64363 189.9426 C 263.70344 218.02124 409.45933 252.31716 530.18426 268.82108" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_33">
+        <path d="M 172.5004 -50 C 166.2622 17.311265 153.23574 152.7524 146.40118 226.14496" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_34">
+        <path d="M 832.6056 -50 C 831.7361 24.536 832.2682 177.26637 830.0849 178.38532 C 802.2804 192.63882 718.7925 226.85557 657.1971 251.3633" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_35">
+        <path d="M 845.7024 -50 C 866.0711 24.798873 905.8825 178.42366 908.0665 179.30275 C 990.432 212.40658 1121.3668 247.72327 1211.284 265.5708" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_36">
+        <path d="M 1025.1796 -50 C 996.0851 24.93511 938.24 179.03764 936 179.9992 C 872.332 207.00568 743.6006 242.7065 657.6495 262.73658" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_37">
+        <path d="M 1045.3406 -50 C 1050.8147 24.920735 1059.7599 178.9775 1062 179.9992 C 1103.4358 198.96552 1162.1462 230.19254 1211.9406 252.433" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_38">
+        <path d="M 1232.8122 -49.26923 C 1185.2654 26.690682 1088.2395 184.36557 1086.0482 185.22018 C 981.1575 225.68309 776.5323 256.74022 657.83774 269.95886" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_39">
+        <path d="M 1239.7112 -49.26923 C 1205.4897 18.786173 1136.814 149.91113 1138.954 151.22723 C 1151.0558 158.71411 1189.3984 196.78278 1222.8769 229.13334" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_40">
+        <path d="M 464.4949 127.06887 C 491.00324 152.42344 520.4961 180.97884 521.00533 181.99646 C 526.7546 193.49496 534.5351 210.79994 544.7284 227.64014" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_41">
+        <path d="M 557.7927 128.11538 C 564.5091 156.85168 572.37034 195.64597 579.3442 226.3491" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_42">
+        <path d="M 1340.0657 128.11538 C 1327.3912 157.02988 1310.3795 196.14543 1296.8941 226.93734" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_43">
+        <path d="M 657.45395 128.11538 C 644.8976 157.02172 627.3699 196.1354 613.917 226.92324" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_44">
+        <path d="M 1455.7896 128.11538 C 1438.9472 156.95172 1419.2818 190.974 1417.6148 191.9992 C 1406.4212 198.92428 1370.8085 219.79568 1337.5472 239.2641" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_45">
+        <path d="M 1209.406 128.11538 C 1190.0185 157.12373 1167.3235 191.38243 1165.6148 191.9992 C 1086.7878 220.7263 813.5953 254.42797 657.85505 270.04037" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_46">
+        <path d="M 1245.9185 128.11538 C 1251.4283 156.82468 1258.4153 195.59076 1264.239 226.28052" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_51">
+        <path d="M -88 -122 L -80 -130 L 27 -130 L 35 -122 L 35 -58 L 27 -50 L -80 -50 L -88 -58 Z" fill="white"/>
+        <path d="M -88 -122 L -80 -130 L 27 -130 L 35 -122 L 35 -58 L 27 -50 L -80 -50 L -88 -58 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-79.925 -108.4351)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="700" fill="black" x="23.695" y="15">OpenUP</tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="700" fill="black" x="18.0325" y="33.435104">Principles</tspan>
+        </text>
+      </g>
+      <g id="Graphic_52">
+        <path d="M -54.6 -41 L -3.4 -41 L 35 -17 L 35 15 L -3.4 39 L -54.6 39 L -93 15 L -93 -17 Z" fill="white"/>
+        <path d="M -54.6 -41 L -3.4 -41 L 35 -17 L 35 15 L -3.4 39 L -54.6 39 L -93 15 L -93 -17 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-88 -28.652657)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="700" fill="black" x="28.865" y="15">eXtreme </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="700" fill="black" x="10.2725" y="33.435104">Programming</tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="700" fill="black" x="23.6075" y="51.87021">Principles</tspan>
+        </text>
+      </g>
+      <g id="Graphic_53">
+        <path d="M -67.4 48.115385 L 15.8 48.115385 C 26.3984 48.115385 35 66.035385 35 88.11538 C 35 110.19538 26.3984 128.11538 15.8 128.11538 L -67.4 128.11538 L -93 88.11538 Z" fill="white"/>
+        <path d="M -67.4 48.115385 L 15.8 48.115385 C 26.3984 48.115385 35 66.035385 35 88.11538 C 35 110.19538 26.3984 128.11538 15.8 128.11538 L -67.4 128.11538 L -93 88.11538 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-75.2 51.245176)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="700" fill="black" x="16.635" y="15">Rational </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="700" fill="black" x="20.79" y="33.435104">Unified </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="700" fill="black" x="17.1675" y="51.87021">Process</tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="700" fill="black" x="6.2155" y="70.30531">Principles</tspan>
+          <tspan font-family="Helvetica Neue" font-size="8" font-weight="700" fill="black" y="70.30531">(1)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_54">
+        <path d="M -69.55 139.11538 L 16.55 139.11538 C 26.7344 139.11538 35 157.03538 35 179.11538 C 35 201.19538 26.7344 219.11538 16.55 219.11538 L -69.55 219.11538 C -79.7344 219.11538 -88 201.19538 -88 179.11538 C -88 157.03538 -79.7344 139.11538 -69.55 139.11538 Z" fill="white"/>
+        <path d="M -69.55 139.11538 L 16.55 139.11538 C 26.7344 139.11538 35 157.03538 35 179.11538 C 35 201.19538 26.7344 219.11538 16.55 219.11538 L -69.55 219.11538 C -79.7344 219.11538 -88 201.19538 -88 179.11538 C -88 157.03538 -79.7344 139.11538 -69.55 139.11538 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-70.7 160.68028)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="700" fill="black" x="16.6975" y="15">Kanban</tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="700" fill="black" x="8.8075" y="33.435104">Principles</tspan>
+        </text>
+      </g>
+      <g id="Graphic_55">
+        <rect x="-88" y="236" width="123" height="80" fill="white"/>
+        <rect x="-88" y="236" width="123" height="80" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(-83 258.0794)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="14" font-style="italic" font-weight="700" fill="black" x="3.475" y="14">rhea.framework </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="700" fill="black" x="16.09" y="32.406097">Core Flows</tspan>
+        </text>
+      </g>
+      <g id="Line_64">
+        <path d="M 47.67412 -138.87234 C 47.67412 -138.87234 48.67412 327.12766 48.67412 327.12766" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_12">
+        <path d="M 323.2718 139.02843 L 460.4718 139.02843 C 476.7006 139.02843 489.8718 156.94843 489.8718 179.02843 C 489.8718 201.10843 476.7006 219.02843 460.4718 219.02843 L 323.2718 219.02843 C 307.043 219.02843 293.8718 201.10843 293.8718 179.02843 C 293.8718 156.94843 307.043 139.02843 323.2718 139.02843 Z" fill="white"/>
+        <path d="M 323.2718 139.02843 L 460.4718 139.02843 C 476.7006 139.02843 489.8718 156.94843 489.8718 179.02843 C 489.8718 201.10843 476.7006 219.02843 460.4718 219.02843 L 323.2718 219.02843 C 307.043 219.02843 293.8718 201.10843 293.8718 179.02843 C 293.8718 156.94843 307.043 139.02843 323.2718 139.02843 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(318.4718 144.18843)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="7.2725" y="14">Respect the current </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="24.365" y="31.42">process, roles, </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="8.945" y="48.839996">responsibilities and </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="57.5675" y="66.259995">titles</tspan>
+        </text>
+      </g>
+      <g id="Graphic_10">
+        <path d="M 1537.7205 139.11538 L 1605.818 139.11538 C 1613.8729 139.11538 1620.4103 157.03538 1620.4103 179.11538 C 1620.4103 201.19538 1613.8729 219.11538 1605.818 219.11538 L 1537.7205 219.11538 C 1529.6656 219.11538 1523.1282 201.19538 1523.1282 179.11538 C 1523.1282 157.03538 1529.6656 139.11538 1537.7205 139.11538 Z" fill="white"/>
+        <path d="M 1537.7205 139.11538 L 1605.818 139.11538 C 1613.8729 139.11538 1620.4103 157.03538 1620.4103 179.11538 C 1620.4103 201.19538 1613.8729 219.11538 1605.818 219.11538 L 1537.7205 219.11538 C 1529.6656 219.11538 1523.1282 201.19538 1523.1282 179.11538 C 1523.1282 157.03538 1529.6656 139.11538 1537.7205 139.11538 Z" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1537.8564 152.98539)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="1.8353205" y="14">Start with </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="3.3578205" y="31.42">what you </tspan>
+          <tspan font-family="Helvetica Neue" font-size="15" font-weight="400" fill="black" x="8.91532" y="48.839996">do now</tspan>
+        </text>
+      </g>
+      <g id="Graphic_66">
+        <text transform="translate(1312.8462 326.9614)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="11" font-weight="400" fill="black" x="5e-4" y="10">(1) Rational Unified Process is a trademark of Rational Software Corporation, a division of IBM</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

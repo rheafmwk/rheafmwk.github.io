@@ -1,0 +1,103 @@
+{
+  "joy": [
+    "happy", "happiness", "joy", "joyful", "delighted", "pleased", "glad", "cheerful",
+    "content", "satisfied", "elated", "thrilled", "ecstatic", "blissful", "euphoric",
+    "merry", "jubilant", "radiant", "overjoyed", "gleeful", "enjoyment", "pleasure",
+    "wonderful", "fantastic", "amazing", "excellent", "great", "awesome", "celebrate",
+    "celebration", "success", "successful", "accomplish", "accomplished", "achievement",
+    "win", "won", "victory", "triumph", "proud", "pride", "excitement", "excited",
+    "exciting", "fun", "laugh", "laughing", "laughter", "smile", "smiling", "humor",
+    "funny", "delight", "rewarding", "fulfilled", "fulfilling", "gratitude", "grateful",
+    "thankful", "blessed", "fortunate", "lucky", "optimistic", "enthusiastic", "passion"
+  ],
+  "trust": [
+    "trust", "trusted", "trustworthy", "believe", "believed", "belief", "faith",
+    "faithful", "confident", "confidence", "rely", "reliable", "reliability", "depend",
+    "dependable", "loyal", "loyalty", "honest", "honesty", "sincere", "sincerity",
+    "genuine", "authentic", "integrity", "credible", "credibility", "assurance",
+    "assured", "secure", "security", "safe", "safety", "stable", "stability",
+    "consistent", "commitment", "committed", "dedicated", "dedication", "devoted",
+    "devotion", "support", "supported", "supportive", "respect", "respected",
+    "respectful", "admire", "admiration", "appreciate", "appreciation", "value",
+    "valued", "acceptance", "accepted", "approval", "approve", "validated",
+    "understanding", "understood", "empathy", "compassion", "caring", "transparent",
+    "transparency", "accountable", "accountability", "responsible", "responsibility"
+  ],
+  "fear": [
+    "fear", "afraid", "scared", "frightened", "terrified", "terror", "panic",
+    "panicked", "anxious", "anxiety", "worried", "worry", "worrying", "nervous",
+    "nervousness", "apprehensive", "apprehension", "dread", "dreading", "uneasy",
+    "unease", "tense", "tension", "stress", "stressed", "stressful", "alarm",
+    "alarmed", "alarming", "threat", "threatened", "threatening", "danger",
+    "dangerous", "risk", "risky", "uncertain", "uncertainty", "insecure",
+    "insecurity", "vulnerable", "hesitant", "hesitation", "doubt", "doubtful",
+    "suspicious", "suspicion", "cautious", "wary", "intimidated", "intimidating",
+    "overwhelmed", "overwhelming", "pressured", "pressure", "nightmare", "horror",
+    "horrified", "shocking", "shock", "distress", "distressed", "paranoid", "phobia"
+  ],
+  "surprise": [
+    "surprise", "surprised", "surprising", "astonished", "astonishment", "amazed",
+    "amazing", "astounded", "stunned", "stunning", "shocked", "shocking", "startled",
+    "unexpected", "unexpectedly", "unforeseen", "sudden", "suddenly", "abrupt",
+    "abruptly", "wonder", "wondering", "bewildered", "bewildering", "perplexed",
+    "perplexing", "puzzled", "puzzling", "confused", "confusing", "baffled",
+    "speechless", "incredulous", "unbelievable", "remarkable", "extraordinary",
+    "unusual", "unprecedented", "revelation", "discover", "discovered", "discovery",
+    "realize", "realized", "realization", "insight", "breakthrough", "epiphany",
+    "revelation", "eye-opening", "mindblowing", "unreal", "incredible", "wow"
+  ],
+  "sadness": [
+    "sad", "sadness", "unhappy", "unhappiness", "sorrow", "sorrowful", "grief",
+    "grieving", "depressed", "depression", "melancholy", "miserable", "misery",
+    "despair", "despairing", "hopeless", "hopelessness", "disappointed",
+    "disappointment", "disappointing", "discouraged", "discouragement", "dejected",
+    "dejection", "downcast", "gloomy", "gloom", "somber", "heartbroken", "heartbreak",
+    "hurt", "hurting", "pain", "painful", "suffering", "suffer", "anguish", "agony",
+    "tearful", "tears", "crying", "cry", "weep", "weeping", "mourn", "mourning",
+    "loss", "lost", "lonely", "loneliness", "isolated", "isolation", "abandoned",
+    "abandonment", "rejected", "rejection", "neglected", "neglect", "regret",
+    "regretful", "remorse", "guilty", "guilt", "shame", "ashamed", "worthless",
+    "defeated", "failure", "failed", "helpless", "powerless", "vulnerable"
+  ],
+  "disgust": [
+    "disgust", "disgusted", "disgusting", "revolted", "revolting", "repulsed",
+    "repulsive", "repugnant", "loathe", "loathing", "detest", "detestable", "hate",
+    "hatred", "hated", "despise", "contempt", "contemptuous", "scorn", "scornful",
+    "disdain", "dislike", "aversion", "abhor", "abhorrent", "offensive", "offended",
+    "appalled", "appalling", "horrified", "horrifying", "nasty", "vile", "foul",
+    "gross", "sickening", "sick", "nauseous", "nauseating", "distasteful", "yuck",
+    "awful", "terrible", "horrible", "dreadful", "unpleasant", "objectionable",
+    "unacceptable", "intolerable", "unbearable", "obnoxious", "toxic", "corrupt",
+    "corruption", "dishonest", "dishonesty", "unethical", "immoral", "inappropriate",
+    "disrespectful", "rude", "arrogant", "arrogance", "hypocrite", "hypocrisy"
+  ],
+  "anger": [
+    "anger", "angry", "mad", "furious", "fury", "rage", "raging", "enraged",
+    "outraged", "outrage", "infuriated", "livid", "irate", "irritated", "irritation",
+    "irritating", "annoyed", "annoying", "annoyance", "frustrated", "frustration",
+    "frustrating", "aggravated", "aggravating", "exasperated", "exasperation",
+    "resentful", "resentment", "resent", "bitter", "bitterness", "hostile",
+    "hostility", "antagonistic", "antagonism", "hate", "hatred", "vengeful",
+    "vengeance", "revenge", "spite", "spiteful", "malice", "malicious", "cruel",
+    "cruelty", "aggressive", "aggression", "violent", "violence", "attack",
+    "attacked", "attacking", "offensive", "offend", "insulted", "insult",
+    "disrespected", "provoked", "provocation", "conflict", "confrontation",
+    "argue", "argument", "arguing", "quarrel", "dispute", "clash", "fight",
+    "fighting", "blame", "blamed", "blaming", "accuse", "accused", "accusation"
+  ],
+  "anticipation": [
+    "anticipate", "anticipation", "anticipating", "expect", "expectation",
+    "expecting", "await", "awaiting", "look forward", "looking forward", "hope",
+    "hoping", "hopeful", "eager", "eagerness", "eagerly", "excited", "excitement",
+    "exciting", "enthusiastic", "enthusiasm", "keen", "curious", "curiosity",
+    "interested", "interest", "intrigued", "intriguing", "wonder", "wondering",
+    "optimistic", "optimism", "confident", "confidence", "ready", "readiness",
+    "prepared", "preparation", "preparing", "plan", "planning", "planned",
+    "scheduled", "upcoming", "forthcoming", "future", "vision", "visionary",
+    "prospect", "prospects", "potential", "possibility", "possibilities",
+    "opportunity", "opportunities", "aspire", "aspiration", "ambition", "ambitious",
+    "goal", "goals", "objective", "objectives", "target", "targets", "milestone",
+    "progress", "momentum", "initiative", "proactive", "driven", "motivated",
+    "motivation", "inspire", "inspired", "inspiring", "envision", "dream", "dreams"
+  ]
+}

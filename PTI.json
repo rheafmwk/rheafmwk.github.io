@@ -1,0 +1,172 @@
+{
+  "relatedflows": [
+    {
+      "n.title": "Delegate complexity",
+      "n.doc_id": "TD_DelegateComplexity.txt",
+      "n.description": "You cannot deal with all complexity the project offers, and you cannot control it. Therefore, share dealing with complexity. Decide who of the team shall deal with which topics. Give the authority to deal with complexity to the team members who are willing and able.",
+      "n.referenceURL": "http://ceur-ws.org/Vol-566/e4_dealingwithcomplexity.pdf"
+    },
+    {
+      "n.title": "Get to know your peoples skills",
+      "n.doc_id": "TD_GetToKnowYourPeopleSkills.txt",
+      "n.description": "How can you know if your people are really up to the assigned task? Ask the developers. Let them explain why they think they are ready. What they will do and how. Let them estimate the effort. Multiply by their individual velocity. Let others estimate the effort. Multiply by their respective individual velocity. Adjust the tasks so that this task gets done on time by the individual whose total time is lower. Once the iteration is finished, recalculate relative speeds. …External incentives do not work.",
+      "n.referenceURL": "http://wiki.c2.com/?GetToKnowYourPeoplesSkills"
+    },
+    {
+      "n.title": "Face to face before remote",
+      "n.doc_id": "TB_FaceToFaceBeforeRemote.txt",
+      "n.description": "Geographic distance makes communication harder. Begin a distributed project with a fact-to-face meeting for everyone.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/FaceToFaceBeforeWorkingRemotely"
+    },
+    {
+      "n.title": "Vision",
+      "n.doc_id": "V_Vision.txt",
+      "n.description": "For a team to be truly effective all members need to be pulling in the same direction. The individual who embodies the passion for this new product effort takes on the role of owning the product, around whom stakeholders and potential future coworkers rally to articulate and together define and refine a vision. The vision is a description of how the product supports a desired future towards which an envisioned future organization advances.",
+      "n.referenceURL": "https://sites.google.com/a/scrumplop.org/published-patterns/value-stream/vision"
+    },
+    {
+      "n.title": "Smoke filled room",
+      "n.doc_id": "I_SmokeFilledRoom.txt",
+      "n.description": "An organization must make a timely decision about urgent strategic directions. Make the decision among power brokers as in the storied smoke-filled rooms stereotypically associated with tycoon businessmen.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/SmokeFilledRoom"
+    },
+    {
+      "n.title": "Community of trust",
+      "n.doc_id": "T_CommunityOfTrust.txt",
+      "n.description": "It is essential that the people in a team trust each other, otherwise, it will be difficult to get anything done. Do things that explicitly demonstrate trust, so it is obvious.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/CommunityOfTrust"
+    },
+    {
+      "n.title": "Bootstrapping",
+      "n.doc_id": "TB_Bootstrapping.txt",
+      "n.description": "Your newly formed team must become productive quickly. Therefore, partition some responsibilities, and share others.",
+      "n.referenceURL": "http://www.hillside.net/plop/plop98/final_submissions/P54.pdf"
+    },
+    {
+      "n.title": "Compass",
+      "n.doc_id": "V_Compass.txt",
+      "n.description": "At different points along the program the group allows impact of event(s) to divert it from course. Group members may drop into quarrels, allow despair, problems or difficulties to distract or even cease their work, wasting time and energy on procrastinations. When a group drops into unproductive quarrels, a drop into a circle of despair, desolation and justifications, re-channel the group thinking and acting towards achieving it goals through teamwork.",
+      "n.referenceURL": "http://hillside.net/europlop/HillsideEurope/Papers/EuroPLoP2003/2003_Homsky_MorePatternsForGroupLeadership.pdf"
+    },
+    {
+      "n.title": "Phasing it in",
+      "n.doc_id": "TB_PhasingItIn.txt",
+      "n.description": "Growing projects must figure out how to grow long-term staff: whom to hire, how many to hire, and when to hire them. Projects must ramp up while minimizing the pains of growth. Phase the hiring program. Start by hiring people to meet the basic core competencies of the business and gradually bring on new people as the project needs to grow.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/PhasingItIn"
+    },
+    {
+      "n.title": "Norms of conduct",
+      "n.doc_id": "CC_NormsOfConduct.txt",
+      "n.description": "A self-organizing team that is unable to get all issues out on the table runs the risk of things being left unsaid, questions remaining unanswered and possible solutions not being evaluated. The team agrees to norms of conduct to enable itself to grow into high performance.",
+      "n.referenceURL": "https://sites.google.com/a/scrumplop.org/published-patterns/product-organization-pattern-language/norms-of-conduct"
+    },
+    {
+      "n.title": "Stand up Meeting",
+      "n.doc_id": "MC_StandupMeetingB.txt",
+      "n.description": " … information about where the current project is so that you can accurately control where it is going. Your organization is also working to establish and maintain a 'whole-team' that is does not suffer from Us vs. Them via Reciprocal visibility. Your team is in the process of improving its communications. … introduce stand up meetings as feedback for management of an empirical process. The daily meetings will give the entire team relevant information to adapt to changes and new information within an iteration so that obstacles can be addressed in a timely manner and the goals of the iteration can be met.",
+      "n.referenceURL": "http://hillside.net/plop/2006/Papers/Library/AdoptingAgilePractices.pdf"
+    },
+    {
+      "n.title": "Set the pegs",
+      "n.doc_id": "V_SetThePegs.txt",
+      "n.description": "During your first encounters with the group you are aware that what you do at the beginning tends to have effect for a long time. Use all first time events and first times an issue is raised to present the expected norms of behavior or preferred attitude you wish to set for the future.",
+      "n.referenceURL": "http://hillside.net/europlop/HillsideEurope/Papers/EuroPLoP2003/2003_Homsky_MorePatternsForGroupLeadership.pdf"
+    },
+    {
+      "n.title": "Failed project wake",
+      "n.doc_id": "R_FailedProjectWake.txt",
+      "n.description": "Canceling a project, even for the best external reasons, is particularly demoralizing to a team that has put its heart and soul into it. Hold a wake for the failed project. This should be much the flavor of an Irish wake, a party for the dead.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/FailedProjectWake"
+    },
+    {
+      "n.title": "Unity of purpose",
+      "n.doc_id": "V_UnityOfPurpose.txt",
+      "n.description": "Many projects have rocky beginnings as people struggle to work together. The leader of the project must instill a common vision and purpose in all the members of the team.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/UnityOfPurpose"
+    },
+    {
+      "n.title": "Productivity games",
+      "n.doc_id": "ID_ProductivityGames.txt",
+      "n.description": "Individuals are so closely focussed on design and code that they are beginning to lose the shared culture of problem solving they developed earlier. Teams develop a shared culture of communication over time as a result of collectively finding solutions in their area of productivity.",
+      "n.referenceURL": "http://www.hillside.net/plop/plop98/final_submissions/P54.pdf"
+    },
+    {
+      "n.title": "Wanderer",
+      "n.doc_id": "RM_Wanderer.txt",
+      "n.description": "The project manager, the architect, or the coach can only provide the coordinating services to the team, if she or he has a good notion of what is going on in the project. To gather this information is one of the most important tasks of management. Practice „management by walking around“. Visit each team member regularly, for example once a day and ask for the status and current problems. Have a look at progress indicators, such as test cases and be sure to give more positive feedback than criticism.",
+      "n.referenceURL": "http://hillside.net/europlop/HillsideEurope/Papers/EuroPLoP2002/2002_Coldewey_InteractionPatternsOfAgileDevelopment.pdf"
+    },
+    {
+      "n.title": "Architecture team",
+      "n.doc_id": "TD_ArchitectureTeam.txt",
+      "n.description": "You need to create an architecture that is simple and cohesive, but which accommodates a variety of constituencies. Create a small team of resonating minds to define the initial architecture, in such a way that the team covers the expected partitioning of the system.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/ArchitectureTeam"
+    },
+    {
+      "n.title": "Day care",
+      "n.doc_id": "A_DayCare.txt",
+      "n.description": "Your experts are spending all their time mentoring novices. Put one expert in charge of all the novices, let the others develop the system.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/DayCare"
+    },
+    {
+      "n.title": "Round Pegs for Round Holes",
+      "n.doc_id": "TD_RoundPegsForRoundHoles.txt",
+      "n.description": "By assigning a task to the wrong person, you can waste time, get inferior results, and discourage both the individual and the team. Therefore, discover each individual’s preferences for working, and allocate tasks accordingly. First, you must observe how your people work. Then you must apply these observations in your decisions about“who does what” in the mix of team tasks.",
+      "n.referenceURL": "http://www.hillside.net/plop/plop98/final_submissions/P54.pdf"
+    },
+    {
+      "n.title": "Pair to share",
+      "n.doc_id": "PP_PairToShare.txt",
+      "n.description": "Some new ideas take a long time to spread out. Encourage people to work in pairs to facilitate spreading the new idea.",
+      "n.referenceURL": "http://www.hillside.net/plop/2011/papers/D-5-Cukier.pdf"
+    },
+    {
+      "n.title": "Apprentice",
+      "n.doc_id": "A_Apprenticeship_Apprentice.txt",
+      "n.description": "A project must balance its need for growth with its need to develop and maintain deep domain expertise. Turn new hires into experts through an apprenticeship program. Every new employee should work as an apprentice (not just a mentee) to an established expert.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/ApprenticeShip"
+    },
+    {
+      "n.title": "Shared clear vision",
+      "n.doc_id": "V_SharedClearVision.txt",
+      "n.description": "The lack of a clear vision about a system can lead to indecision and contrary opinions among the stakeholders and can quickly paralyze the project. The vision provides a mechanism for removing vague, ambiguous, or poorly defined requirements from the scope of the project. It is an objective filter for scrubbing requirements, and helps to define what is in or out of the system's scope. ",
+      "n.referenceURL": "https://www.worldcat.org/title/patterns-for-effective-use-cases/oclc/301075257&referer=brief_results"
+    },
+    {
+      "n.title": "Virtual shared location",
+      "n.doc_id": "WT_VirtualSharedLocation.txt",
+      "n.description": "Team members can meet neither at the same time nor at the same place, but must share informal and formal ideas and information. Use a wiki.",
+      "n.referenceURL": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.96.3260&rep=rep1&type=pdf"
+    },
+    {
+      "n.title": "Firewalls",
+      "n.doc_id": "I_Firewalls.txt",
+      "n.description": "It's important to placate stakeholders who feel a need to \"help\" by having access to low levels of the project, without distracting developers and others who are moving towards project completion. Create a role to shield other development personnel from interaction with external roles.",
+      "n.referenceURL": "http://orgpatterns.wikispaces.com/FireWalls"
+    }
+  ],
+  "upphases": [
+    {
+      "phase": "Elaboration",
+      "count": 13
+    },
+    {
+      "phase": "Inception",
+      "count": 9
+    },
+    {
+      "phase": "Construction",
+      "count": 2
+    }
+  ],
+  "emotionlandscape": {
+    "joy": 33,
+    "anticipation": 57,
+    "sadness": 19,
+    "disgust": 8,
+    "anger": 16,
+    "fear": 26,
+    "surprise": 20,
+    "trust": 100
+  }
+}

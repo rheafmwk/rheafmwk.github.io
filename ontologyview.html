@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>rhea.framework Knowledge Base</title>
+    <meta name="Rhea Reference Model" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+	<style>
+		.svg-container {
+		    display: inline-block;
+		    position: relative;
+		    width: 100%;
+		    padding-bottom: 5%;
+		    vertical-align: top;
+		    overflow: hidden;
+		}
+		.svg-content-responsive {
+		    display: inline-block;
+		    position: absolute;
+		    top: 10px;
+		    left: 10px;
+			right: 10px;
+		}
+		.card {
+		    margin: 0 auto;
+		    float: none;
+		    margin-bottom: 5px;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  	  <a class="navbar-brand" href="index.html">
+  	    <img src="static/assets/rhea.svg" width="28" height="28" class="d-inline-block align-top" alt="">
+  	    rhea.framework
+  	  </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#rheanavbartoggle" aria-controls="rheanavbartoggle" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+	   <div class="collapse navbar-collapse" id="rheanavbartoggle">
+	    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+	         <li class="nav-item">
+	           <a class="nav-link" href="index.html">Overview</a>
+	         </li>
+	         <li class="nav-item">
+	           <a class="nav-link" href="flowtemplate.html">FlowTemplate</a>
+	         </li>
+	         <li class="nav-item active">
+	           <a class="nav-link" href="ontologyview.html">KnowledgeBase<span class="sr-only">(current)</span></a>
+	         </li>
+	         <li class="nav-item">
+	           <a class="nav-link" href="literature.html">Literature</a>
+	         </li>
+	    </ul>
+	</div>
+	</nav>
+	<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h3 class="text-left lead my-2 mb-4">Knowledge Base<a href="visualization.html" class="btn btn-outline-success float-right" role="button">Visualization</a></h3>
+			
+			<div>
+		   <p>The <i>rhea.framework</i> knowledge base comprises a collection of interconnected <i>reference flows</i> (peer reviewed case studies, best practices, organizational patterns) that can </p>
+		   <ul>
+			   <li>support team performance,</li>
+			   <li>serve as anchors in personal reflection and learning processes,</li>
+			   <li>be <a href="#methodologyinterfaces">interfaced with the Unified Process.</a></li>
+		   </ul>
+		    <hr>
+		    <h5 class="text-center lead mt-4 mb-4">Core Flows</h5>
+		    <p>An initial collection of 78 <i>reference flows</i> was retrieved through a systematic literature review. Four <i>core flows</i> - or core topics in team leadership - were distinguished and interlinked by natural language processing.</p>
+		</div>
+		  <div class="row">
+		  	<div class="col-md-12">
+		  		<div class="row">
+		  			<div class="col-md-7">
+		  				<span class="text-center"><div id="pieChart"></div></span>
+		  			</div>
+		  			<div class="col-md-5">
+		  				<div class="row">
+		  	  	  	      <div id="PTIcard" class="card">
+		  	  	  	          <div class="card-body">
+		  	  	  	              <h5 class="card-title"><img src="static/assets/PrototypeTeamIdentity.svg" width="20px"/> Prototype Team Identity</h5>
+		  	  	  	              <p class="card-text small">This core flow deals with how individuals of diverse backgrounds working together feel being valuable participants of a team. <a href="pti.html">Find out more.</a></p>
+		  	  	  	          </div>
+		  	  	  	      </div>
+		  				</div>
+		  				<div class="row">
+  		  	  	  	      <div id="OFCcard" class="card">
+  		  	  	  	          <div class="card-body">
+  		  	  	  	              <h5 class="card-title"><img src="static/assets/OrganizeForComplexity.svg" width="20px"/> Organize for Complexity</h5>
+  		  	  	  	              <p class="card-text small">The main intent is to find ways to deal with - or rather welcome and deploy - complexity in business or work requirements, (technological) resources, stakeholder involvement and interpersonal team processes. <a href="ofc.html">Find out more.</a></p>
+  		  	  	  	          </div>
+		  				</div>
+					</div>
+		  				<div class="row">
+		  	  	  	      <div id="FTCcard" class="card">
+		  	  	  	          <div class="card-body">
+		  	  	  	              <h5 class="card-title"><img src="static/assets/FacilitateTeamCohesion.svg" width="20px"/> Facilitate Team Cohesion</h5>
+		  	  	  	              <p class="card-text small">In a cohesive team, participants work jointly towards shared goals. Team cohesion is a dynamic, multifaceted, interpersonal process. <a href="ftc.html">Find out more.</a></p>
+		  	  	  	          </div>
+		  	  	  	      </div>
+		  				</div>
+		  				<div class="row">
+		  	  	  	      <div id="STEcard" class="card">
+		  	  	  	          <div class="card-body">
+		  	  	  	              <h5 class="card-title"><img src="static/assets/StructureForTaskEffectiveness.svg" width="20px"/> Arrange for Task Effectiveness</h5>
+		  	  	  	              <p class="card-text small">Teams work towards shared goals. This core flow spans approaches and tools to complete goals in time, budget and scope. <a href="ste.html">Find out more.</a></p>
+		  	  	  	          </div>
+		  	  	  	      </div>
+		  				</div>
+		  			</div>
+		  		</div>
+		  	</div>
+		  </div>
+      </div>	
+		</div>
+	    <hr>
+	    <h5 class="text-center lead mt-4 mb-4"><a name="methodologyinterfaces">Software Development Methodology Interfaces</a></h5>
+		<div class="text-center mb-4"><img src="static/assets/devmetinterfaces.svg" width="100%"></div>
+		<hr>
+		<h5 class="text-center lead mt-4 mb-4">Exploring the Knowledge Base</h5>
+		<div class="col-md-12">
+			<div class="text-center">
+				<p>The <a href="visualization.html" class="btn btn-outline-success my-2 my-sm-0" role="button">Visualization</a> can help start delving into the knowledge base.</br> 
+					Get more in-depth information from the <a href="db_cypher_shell.cypher" class="btn btn-outline-success my-2 my-sm-0" role="button">Cypher</a> knowledge base representation in a <a href="https://neo4j.com/product/neo4j-graph-database/">neo4j Database</a>.</p>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+
+<footer class="py-3 bg-light">
+	 <div class="container">
+    <p class="m-0 text-center"><small>This website is designed for the demonstration and evaluation of the <i>rhea.framework</i> which was elaborated as part of a doctorate study at the University of Vienna, Austria. Version 1.3 (2020). This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>. Project source code is released under the <a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License (Version 2.0)</a>. <a href="mailto:david.haselberger@univie.ac.at">Contact</a>.
+	</small></p>
+</div>
+</footer>
+	
+<script src="static/js/jquery-3.2.1.min.js"></script>
+<script src="static/js/popper.min.js"></script>
+<script src="static/js/bootstrap.min.js"></script>
+<script src="static/js/d3.min.js"></script>
+<script>
+var width = 600,
+    height = 600,
+    radius = 300,
+    colors = d3.scaleOrdinal().range(['#FAFAFA', '#F2F2F2', '#E6E6E6','#D8D8D8']);
+
+var image_width=100, image_height=100;
+
+var piedata = [
+    { label: "Organize for Complexity", cardid: "OFCcard", image: "static/assets/OrganizeForComplexity.svg", value: 50, link: "ofc.html" },
+	{ label: "Arrange for Task Effectiveness", cardid: "STEcard", image: "static/assets/StructureForTaskEffectiveness.svg", value: 50, link: "ste.html" },
+    { label: "Facilitate Team Cohesion", cardid: "FTCcard", image: "static/assets/FacilitateTeamCohesion.svg", value: 50, link: "ftc.html" },
+    { label: "Prototype Team Identity", cardid: "PTIcard", image: "static/assets/PrototypeTeamIdentity.svg", value: 50, link: "pti.html" }
+];
+
+var arc = d3.arc().outerRadius(250).innerRadius(1);
+var arc2 = d3.arc().innerRadius(0).outerRadius(280);
+var pie = d3.pie().value(function(d) { return d.value; });
+
+var svg = d3.select('#pieChart')
+	.append("div").classed("svg-container", true)
+	.append("svg")
+    .attr('width', width)
+    .attr('height', height)
+    .append('g')
+    .attr('transform', 'translate('+(width-radius)+','+(height-radius)+')');
+
+var g = svg.selectAll(".arc")
+      .data(pie(piedata))
+      .enter().append("g")
+      .attr("class", "arc");
+
+g.append("path")
+    .attr("d", arc)
+    .style("fill", function(d,i) { return colors(i); })
+    .on("mouseenter", function(d){
+        d3.select(this).transition().duration(1000).attr("d", arc2);
+        $("#" + d.data.cardid).addClass('bg-light').addClass('border-info');
+    })
+    .on("mouseleave", function(d) {
+        d3.selectAll("path").transition().duration(1000).attr("d", arc);
+        $("#" + d.data.cardid).removeClass('bg-light').removeClass('border-info');
+    })
+    .on("click", function(d) {
+        window.location.href = d.data.link;
+    });
+
+g.append("g")
+    .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+    .append("svg:image")
+    .attr("xlink:href", function(d) { return d.data.image; })
+    .attr("width", image_width)
+    .attr("height", image_height)
+    .attr("x", -1*image_width/2)
+    .attr("y", -1*image_height/2)
+    .on("mouseenter", function(d, i) {
+        var b = i;
+        d3.selectAll("path").each(function (d, i) {
+            if (i === b) {
+                d3.select(this).transition().duration(1000).attr("d", arc2);
+            }
+        });
+        $("#" + d.data.cardid).addClass('bg-light').addClass('border-info');
+    })
+    .on("click", function(d) {
+        window.location.href = d.data.link;
+    });
+
+// Card hover effects
+["PTI", "OFC", "FTC", "STE"].forEach(function(cf) {
+    var cardId = "#" + cf + "card";
+    var label = {
+        "PTI": "Prototype Team Identity",
+        "OFC": "Organize for Complexity", 
+        "FTC": "Facilitate Team Cohesion",
+        "STE": "Arrange for Task Effectiveness"
+    }[cf];
+    
+    $(cardId).hover(
+        function() {
+            $(cardId).addClass('bg-light').addClass('border-info');
+            d3.selectAll("path").each(function (d) {
+                if (d.data.label === label) {
+                    d3.select(this).transition().duration(1000).attr("d", arc2);
+                }
+            });
+        },
+        function() {
+            $(cardId).removeClass('bg-light').removeClass('border-info');
+            d3.selectAll("path").each(function (d) {
+                if (d.data.label === label) {
+                    d3.select(this).transition().duration(1000).attr("d", arc);
+                }
+            });
+        }
+    );
+});
+</script>
+</body>
+</html>

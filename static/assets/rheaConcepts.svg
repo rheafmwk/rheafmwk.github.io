@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="79.5 -550.36066 1099.5 270.36066" width="1099.5" height="270.36066">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-9 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M -8 0 L 0 3 L 0 -3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="-750" x-height="517" cap-height="714" ascent="957.0007" descent="-212.99744" font-style="italic" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Italic"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.8.2 test 
+    <dc:date>2018-08-10 17:03:53 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" fill-opacity="1" stroke-dasharray="none" stroke="none" stroke-opacity="1" fill="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_59">
+        <path d="M 650 -549.36066 L 1169 -549.36066 C 1173.9706 -549.36066 1178 -545.3312 1178 -540.36066 L 1178 -290 C 1178 -285.02944 1173.9706 -281 1169 -281 L 650 -281 C 645.0294 -281 641 -285.02944 641 -290 L 641 -540.36066 C 641 -545.3312 645.0294 -549.36066 650 -549.36066 Z" stroke="#f10031" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+      <g id="Graphic_58">
+        <path d="M 381.63934 -549.36066 L 612.63934 -549.36066 C 617.6099 -549.36066 621.63934 -545.3312 621.63934 -540.36066 L 621.63934 -290 C 621.63934 -285.02944 617.6099 -281 612.63934 -281 L 381.63934 -281 C 376.6688 -281 372.63934 -285.02944 372.63934 -290 L 372.63934 -540.36066 C 372.63934 -545.3312 376.6688 -549.36066 381.63934 -549.36066 Z" stroke="#00b048" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+      </g>
+      <g id="Graphic_44">
+        <circle cx="110" cy="-492" r="30.0000479370569" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_45">
+        <circle cx="409.5" cy="-492" r="30.0000479370569" fill="white"/>
+        <circle cx="409.5" cy="-492" r="30.0000479370569" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_46">
+        <circle cx="686" cy="-492" r="30.0000479370569" fill="white"/>
+        <circle cx="686" cy="-492" r="30.0000479370569" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_47">
+        <circle cx="982" cy="-492" r="30.0000479370568" fill="white"/>
+        <circle cx="982" cy="-492" r="30.0000479370568" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_49">
+        <path d="M 149.90342 -492 C 210.71174 -492 325.2204 -492 379.5 -492" marker-start="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_50">
+        <path d="M 449.40156 -492 C 505.3728 -492 605.9434 -492 656 -492" marker-start="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_51">
+        <path d="M 725.8987 -492 C 785.9814 -492 898.3514 -492 952 -492" marker-start="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_52">
+        <text transform="translate(85 -441.57605)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="0" y="16">Significant Event</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="34.46411">frequently described by adjectives with </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="52.91211">emotional connotations, </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="71.36011">expressed in superlatives, </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="89.80811">appear to precede a shift in a situation, </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="108.2561">are compared with other personal </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="126.7041">experiences</tspan>
+        </text>
+      </g>
+      <g id="Graphic_54">
+        <text transform="translate(382 -441.85205)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="0" y="16">Flow</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="34.46411">a written description of a</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="52.91211">significant event using the </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="71.36011">flow template and the reflection</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="89.80811">guideline that can be presented</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="108.2561">in a flow session</tspan>
+        </text>
+      </g>
+      <g id="Graphic_55">
+        <text transform="translate(661 -441.85205)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="0" y="16">Reference Flow</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="34.46411">a peer reviewed case study,</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="52.91211">best practice or organizational</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="71.36011">pattern describing leadership </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="89.80811">interactions supporting team </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="108.2561">performance</tspan>
+        </text>
+      </g>
+      <g id="Graphic_56">
+        <text transform="translate(957 -441.95605)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="0" y="16">Core Flow</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="34.46411">core topics in team leadership</tspan>
+        </text>
+      </g>
+      <g id="Graphic_57">
+        <text transform="translate(1027 -305.224)" fill="#aaa">
+          <tspan font-family="Helvetica Neue" font-size="16" font-style="italic" font-weight="400" fill="#aaa" x=".04" y="15">levels of abstraction</tspan>
+        </text>
+      </g>
+      <g id="Graphic_70">
+        <title>icon-bolt</title>
+        <path d="M 119.03825 -501.8089 C 119.29322 -501.8089 119.51689 -501.71556 119.70924 -501.52444 C 119.90606 -501.33333 120 -501.09333 120 -500.80444 C 120 -500.63556 119.98658 -500.5022 119.95974 -500.40444 L 107.85954 -472.6178 C 107.7164 -472.20444 107.40774 -472 106.93805 -472 C 106.68307 -472 106.44599 -472.09333 106.23127 -472.28444 C 106.01655 -472.47556 105.90919 -472.71556 105.90919 -473.00444 C 105.90919 -473.08444 105.93156 -473.16 105.97629 -473.2089 L 110.3422 -492.6578 C 110.17222 -492.60444 109.82778 -492.4978 109.31335 -492.3511 C 108.79893 -492.20444 108.2174 -492.04444 107.55983 -491.87556 C 106.90226 -491.7022 106.2089 -491.51556 105.48423 -491.3111 C 104.75509 -491.1022 104.07515 -490.9111 103.44889 -490.73333 C 102.81816 -490.55556 102.2769 -490.4178 101.82062 -490.32 C 101.36435 -490.2222 101.09148 -490.17333 101.00649 -490.17333 C 100.7202 -490.17333 100.48311 -490.2711 100.29076 -490.47556 C 100.09841 -490.68444 100 -490.91556 100 -491.1689 C 100 -491.28444 100.01342 -491.3511 100.04026 -491.3822 L 104.518 -511.21333 C 104.57616 -511.44 104.69246 -511.62667 104.87139 -511.7778 C 105.05032 -511.92444 105.25162 -512 105.48423 -512 L 112.84724 -512 C 113.10669 -512 113.33035 -511.9022 113.5227 -511.71556 C 113.71505 -511.52444 113.81346 -511.28444 113.81346 -511 C 113.81346 -510.91556 113.80452 -510.84444 113.7911 -510.7911 C 113.77768 -510.7289 113.75531 -510.6489 113.724 -510.55556 L 109.87251 -499.40444 C 110.0425 -499.4622 110.37799 -499.55556 110.879 -499.6889 C 111.38 -499.82667 111.95706 -499.9778 112.61015 -500.1511 C 113.26773 -500.32 113.94766 -500.50667 114.64997 -500.7111 C 115.3478 -500.92 116.00984 -501.1022 116.64057 -501.2578 C 117.26683 -501.4089 117.80362 -501.5422 118.24648 -501.6489 C 118.68486 -501.75556 118.94878 -501.8089 119.03825 -501.8089 Z" fill="black"/>
+      </g>
+    </g>
+  </g>
+</svg>
