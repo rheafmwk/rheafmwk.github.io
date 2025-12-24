@@ -139,4 +139,8 @@
 <script src="static/js/bootstrap.min.js"></script>
 <script>
   var encoded = [100,97,118,105,100,46,104,97,115,101,108,98,101,114,103,101,114,64,117,110,105,118,105,101,46,97,99,46,97,116];
-  var decoded = encoded.map(c => String.fromCharC
+  var decoded = encoded.map(c => String.fromCharCode(c)).join('');
+  document.getElementById('encoded-email').href = 'mailto:' + decoded;
+</script>
+</body>
+</html>
