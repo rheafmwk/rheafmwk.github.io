@@ -3,32 +3,28 @@
 <head>
   <meta charset="utf-8">
   <title>rhea.framework Reflection Template</title>
-  <meta name="Rhea Flow Template" content="">
+  <meta name="description" content="rhea.framework Reflection Template">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="static/css/select2.min.css">
-  <link rel="stylesheet" href="static/css/bootstrap.min.css">
-  <style>
-  	.custom-file-control:after {
-  	    content: attr(data-content) !important;
-  	}
-  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+	  <div class="container-fluid">
   	  <a class="navbar-brand" href="index.html">
   	    <img src="static/assets/rhea.svg" width="28" height="28" class="d-inline-block align-top" alt="">
   	    rhea.framework
   	  </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#rheanavbartoggle" aria-controls="rheanavbartoggle" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#rheanavbartoggle" aria-controls="rheanavbartoggle" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
        </button>
 	   <div class="collapse navbar-collapse" id="rheanavbartoggle">
-	    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+	    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
 	         <li class="nav-item">
 	           <a class="nav-link" href="index.html">Overview</a>
 	         </li>
-	         <li class="nav-item active">
-	           <a class="nav-link" href="flowtemplate.html">FlowTemplate<span class="sr-only">(current)</span></a>
+	         <li class="nav-item">
+	           <a class="nav-link active" aria-current="page" href="flowtemplate.html">FlowTemplate</a>
 	         </li>
 	         <li class="nav-item">
 	           <a class="nav-link" href="ontologyview.html">KnowledgeBase</a>
@@ -38,39 +34,40 @@
 	         </li>
 	    </ul>
 	</div>
+	  </div>
 	</nav>
 <div class="container-fluid">
 <div class="row">
-  <div class="col-md-8">
-	  <h3 class="text-left lead my-2">Reflection (Flow) Template
-	  <a href="guideline.html" class="btn btn-outline-success float-right ml-2" role="button">Guideline</a>
-	  <a href="static/assets/ReflectiveWritingTemplate.pdf" class="btn btn-outline-primary float-right ml-2" role="button">Print Version</a>
+  <div class="col-lg-8">
+	  <h3 class="text-start lead my-2">Reflection (Flow) Template
+	  <a href="guideline.html" class="btn btn-outline-success float-end ms-2" role="button">Guideline</a>
+	  <a href="static/assets/ReflectiveWritingTemplate.pdf" class="btn btn-outline-primary float-end ms-2" role="button">Print Version</a>
 	  </h3>
-	   <div class="form-group">
-		 <label for="flowTitle">Title:</label>
+	   <div class="mb-3">
+		 <label for="flowTitle" class="form-label">Title:</label>
 	  	 <input class="form-control form-control-lg" id="flowTitle" type="text">
 	 </div>
-	  <div class="form-group">
-		  <label for="flowDescription">Description:</label>
+	  <div class="mb-3">
+		  <label for="flowDescription" class="form-label">Description:</label>
 	   	 <textarea class="form-control" rows="20" id="flowDescription" placeholder="A flow description may include the following reflection anchors: Intent, Context, Tensions that are perceived to influence or establish the situation, (Intended) Solution, Consequences or Resulting Context.
 
-Assisting Questions: 
-- How would this stakeholder perceive the situation? 
-- What would that specific team member say about it? 
+Assisting Questions:
+- How would this stakeholder perceive the situation?
+- What would that specific team member say about it?
 - How does colleague A perceive his/her relation to colleague B concerning the situation?"></textarea>
 	  </div>
-  	   <div class="form-group">
-		  <label for="flowPicURL">Picture URL:</label>
+  	   <div class="mb-3">
+		  <label for="flowPicURL" class="form-label">Picture URL:</label>
   	  	 <input class="form-control form-control-lg" id="flowPicURL" type="text">
   	 </div>
- 	   <div class="form-group">
-		   <label for="flowRefURL">Reference URL:</label>
+ 	   <div class="mb-3">
+		   <label for="flowRefURL" class="form-label">Reference URL:</label>
  	  	 <input class="form-control form-control-lg" id="flowRefURL" type="text">
  	 </div>
- 	 	<div class="form-group">
-		  <label for="coreflowSelect">Categories:</label>
+ 	 	<div class="mb-3">
+		  <label for="coreflowSelect" class="form-label">Categories:</label>
  		  <div class="mt-2">
-		  <select class="coreflowSelect" id="flowCoreFlowSelection" multiple="multiple">	
+		  <select class="coreflowSelect" id="flowCoreFlowSelection" multiple="multiple">
  				<option>Prototype Team Identity</option>
  	        	<option>Organize for Complexity</option>
  		        <option>Facilitate Team Cohesion</option>
@@ -79,7 +76,7 @@ Assisting Questions:
 	     </div>
 		 <div class="mt-2">
  	      <select class="behaviourSelect" id="flowBehaviourSelection" multiple="multiple">
-  			<optgroup label="Person-related Behaviour">			
+  			<optgroup label="Person-related Behaviour">
  				 <option>Team Member Selection</option>
  	        	 <option>Team Norming</option>
 				 <option>Team Structure Management</option>
@@ -116,7 +113,7 @@ Assisting Questions:
 	      </div>
 		  <div class="mt-2">
  	      <select class="riskSelect" id="flowRiskSelection" multiple="multiple">
-  			<optgroup label="Structural Risk">			
+  			<optgroup label="Structural Risk">
  				 <option>Orientation</option>
  	        	 <option>Funding</option>
   		        <option>Performance Strategies - Goals - Schedules</option>
@@ -137,7 +134,7 @@ Assisting Questions:
  		</select>
 	    </div>
 		<div class="mt-2 mb-2">
-       <select class="upPhase" id="flowUPSelection" multiple="multiple">	
+       <select class="upPhase" id="flowUPSelection" multiple="multiple">
  			<option>Inception</option>
          	<option>Elaboration</option>
  	        <option>Construction</option>
@@ -145,9 +142,9 @@ Assisting Questions:
  	 </select>
  		</div>
  	  </div>
-	  <button type="button" class="btn btn-outline-info mb-2 ml-2 float-right" value="Export" id="exportJson">Export as JSON</button>
+	  <button type="button" class="btn btn-outline-info mb-2 ms-2 float-end" value="Export" id="exportJson">Export as JSON</button>
   </div>
-  <div class="col-md-4">
+  <div class="col-lg-4">
 	<div class="alert alert-info mt-4" role="alert">
 		<h5>About this Template</h5>
 		<p>Use this template to write your personal reflections on significant team leadership events. The categories help you connect your experience to the knowledge base.</p>
@@ -164,21 +161,19 @@ Assisting Questions:
 
 <footer class="py-3 bg-light">
 	 <div class="container">
-    <p class="m-0 text-center"><small>This website is designed for the demonstration and evaluation of the <i>rhea.framework</i> which was elaborated as part of a doctorate study at the University of Vienna, Austria. Version 1.3 (2020). This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>. Project source code is released under the <a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License (Version 2.0)</a>. <a href="mailto:david.haselberger@univie.ac.at">Contact</a>.
-	</small></p>
+    <p class="m-0 text-center"><small>This website is designed for the demonstration and evaluation of the <i>rhea.framework</i> which was elaborated as part of a doctorate study at the University of Vienna, Austria. Version 1.3 (2020). This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>. Project source code is released under the <a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License (Version 2.0)</a>. <a href="mailto:david.haselberger@univie.ac.at">Contact</a>.</small></p>
 </div>
 </footer>
-		
+
 <script src="static/js/jquery-3.2.1.min.js"></script>
-<script src="static/js/popper.min.js"></script>
-<script src="static/js/bootstrap.min.js"></script>
 <script src="static/js/select2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script type="text/javascript">
 	$("#flowCoreFlowSelection").select2({ placeholder: "Core Flow", width: '100%' });
 	$("#flowBehaviourSelection").select2({ placeholder: "Behaviour", width: '100%' });
  	$("#flowRiskSelection").select2({ placeholder: "Risk", width: '100%' });
   	$("#flowUPSelection").select2({ placeholder: "Unified Process Life-Cycle Phase", width: '100%' });
-	
+
 	// Export functionality
 	$('#exportJson').click(function() {
 		var flowData = {
@@ -192,12 +187,12 @@ Assisting Questions:
 			upPhases: $('#flowUPSelection').val(),
 			exportDate: new Date().toISOString()
 		};
-		
+
 		var dataStr = JSON.stringify(flowData, null, 2);
 		var dataUri = 'data:application/json;charset=utf-8,' + encodeURIComponent(dataStr);
-		
+
 		var exportName = (flowData.title || 'flow') + '.json';
-		
+
 		var linkElement = document.createElement('a');
 		linkElement.setAttribute('href', dataUri);
 		linkElement.setAttribute('download', exportName);

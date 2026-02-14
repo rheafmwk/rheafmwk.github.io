@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <title>rhea.framework Reflection Template</title>
-  <meta name="Rhea Flow Template" content="">
+  <meta name="description" content="rhea.framework Reflection Flow Template">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="static/css/select2.min.css">
-  <link rel="stylesheet" href="static/css/bootstrap.min.css">
   <style>
 	.reference-flow-item {
 		padding: 6px 8px;
@@ -22,198 +22,200 @@
   </style>
 </head>
 <body>
-	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-  	  <a class="navbar-brand" href="index.html">
-  	    <img src="static/assets/rhea.svg" width="28" height="28" class="d-inline-block align-top" alt="">
-  	    rhea.framework
-  	  </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#rheanavbartoggle" aria-controls="rheanavbartoggle" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-       </button>
-	   <div class="collapse navbar-collapse" id="rheanavbartoggle">
-	    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-	         <li class="nav-item">
-	           <a class="nav-link" href="index.html">Overview</a>
-	         </li>
-	         <li class="nav-item active">
-	           <a class="nav-link" href="flowtemplate.html">FlowTemplate<span class="sr-only">(current)</span></a>
-	         </li>
-	         <li class="nav-item">
-	           <a class="nav-link" href="ontologyview.html">KnowledgeBase</a>
-	         </li>
-	         <li class="nav-item">
-	           <a class="nav-link" href="literature.html">Literature</a>
-	         </li>
-	    </ul>
-	</div>
-	</nav>
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="static/assets/rhea.svg" width="28" height="28" class="d-inline-block align-top" alt="">
+      rhea.framework
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#rheanavbartoggle" aria-controls="rheanavbartoggle" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="rheanavbartoggle">
+      <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Overview</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="flowtemplate.html">FlowTemplate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ontologyview.html">KnowledgeBase</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="literature.html">Literature</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 <div class="container-fluid">
 <div class="row">
-  <div class="col-md-8">
-	  <h3 class="text-left lead my-2">Reflection (Flow) Template
-	  <a href="guideline.html" class="btn btn-outline-success float-right ml-2" role="button">Guideline</a>
-	  <a href="static/assets/ReflectiveWritingTemplate.pdf" class="btn btn-outline-primary float-right ml-2" role="button">Print Version</a>
-	  </h3>
-	   <div class="form-group">
-		 <label for="flowTitle">Title:</label>
-	  	 <input class="form-control form-control-lg" id="flowTitle" type="text">
-	 </div>
-	  <div class="form-group">
-		  <label for="flowDescription">Description:</label>
-	   	 <textarea class="form-control" rows="20" id="flowDescription" placeholder="A flow description may include the following reflection anchors: Intent, Context, Tensions that are perceived to influence or establish the situation, (Intended) Solution, Consequences or Resulting Context.
+  <div class="col-lg-8">
+    <h3 class="text-start lead my-2">Reflection (Flow) Template
+      <span class="float-end">
+        <a href="guideline.html" class="btn btn-outline-success ms-2" role="button">Guideline</a>
+        <a href="static/assets/ReflectiveWritingTemplate.pdf" class="btn btn-outline-primary ms-2" role="button">Print Version</a>
+      </span>
+    </h3>
+    <div class="mb-3">
+      <label for="flowTitle" class="form-label">Title:</label>
+      <input class="form-control form-control-lg" id="flowTitle" type="text">
+    </div>
+    <div class="mb-3">
+      <label for="flowDescription" class="form-label">Description:</label>
+      <textarea class="form-control" rows="20" id="flowDescription" placeholder="A flow description may include the following reflection anchors: Intent, Context, Tensions that are perceived to influence or establish the situation, (Intended) Solution, Consequences or Resulting Context.
 
-Assisting Questions: 
-- How would this stakeholder perceive the situation? 
-- What would that specific team member say about it? 
+Assisting Questions:
+- How would this stakeholder perceive the situation?
+- What would that specific team member say about it?
 - How does colleague A perceive his/her relation to colleague B concerning the situation?"></textarea>
-	  </div>
-  	   <div class="form-group">
-		  <label for="flowPicURL">Picture URL:</label>
-  	  	 <input class="form-control form-control-lg" id="flowPicURL" type="text">
-  	 </div>
- 	   <div class="form-group">
-		   <label for="flowRefURL">Reference URL:</label>
- 	  	 <input class="form-control form-control-lg" id="flowRefURL" type="text">
- 	 </div>
- 	 	<div class="form-group">
-		  <label for="coreflowSelect">Categories:</label>
- 		  <div class="mt-2">
-		  <select class="coreflowSelect" id="flowCoreFlowSelection" multiple="multiple">	
- 				<option>Prototype Team Identity</option>
- 	        	<option>Organize for Complexity</option>
- 		        <option>Facilitate Team Cohesion</option>
- 		        <option>Structure for Task Effectiveness</option>
- 		 </select>
-	     </div>
-		 <div class="mt-2">
- 	      <select class="behaviourSelect" id="flowBehaviourSelection" multiple="multiple">
-  			<optgroup label="Person-related Behaviour">			
- 				 <option>Team Member Selection</option>
- 	        	 <option>Team Norming</option>
-				 <option>Team Structure Management</option>
-				 <option>Role Modeling</option>
-				 <option>Communication</option>
-				 <option>Conflict Resolution</option>
-				 <option>Consulting</option>
-				 <option>Coaching</option>
-				 <option>Motivating</option>
-				 <option>Mentoring</option>
- 			</optgroup>
- 			 <optgroup label="Task-related Behaviour">
- 		        <option>Planning and Scheduling</option>
- 		        <option>Allocating Resources</option>
- 		        <option>Monitoring and Controlling</option>
- 			</optgroup>
- 			 <optgroup label="Change-related Behaviour">
- 		        <option>Continuous Learning</option>
- 		        <option>Sensing</option>
- 		        <option>Vision</option>
- 			</optgroup>
-			<optgroup label="Boundary-spanning Behaviour">
- 		        <option>Buffering</option>
- 		        <option>Managing Interfaces</option>
- 		        <option>Representing</option>
- 			</optgroup>
- 			 <optgroup label="Emergent Process Facilitation">
- 		        <option>Creating a supportive Team Atmosphere</option>
- 		        <option>Enabling Team Processes</option>
- 		        <option>Interpersonal Facilitation</option>
- 		        <option>Co-Leadership</option>
- 			</optgroup>
- 	      </select>
-	      </div>
-		  <div class="mt-2">
- 	      <select class="riskSelect" id="flowRiskSelection" multiple="multiple">
-  			<optgroup label="Structural Risk">			
- 				 <option>Orientation</option>
- 	        	 <option>Funding</option>
-  		        <option>Performance Strategies - Goals - Schedules</option>
-  		        <option>Role Definition</option>
-  		        <option>Resources and Technical Knowledge Acquisition</option>
- 		        <option>Complexities in Market - Organization - and Tasks</option>
- 			</optgroup>
- 			 <optgroup label="Process Risk">
- 		        <option>Motivation</option>
- 		        <option>Conflict in Roles - Team - Organization Politics</option>
- 		        <option>Team Atmosphere</option>
- 		        <option>Reassurance</option>
- 		        <option>Interpersonal Relationships</option>
- 		        <option>Change</option>
- 		        <option>Leadership Experience</option>
- 		        <option>Communication</option>
- 			</optgroup>
- 		</select>
-	    </div>
-		<div class="mt-2 mb-2">
-       <select class="upPhase" id="flowUPSelection" multiple="multiple">	
- 			<option>Inception</option>
-         	<option>Elaboration</option>
- 	        <option>Construction</option>
- 	        <option>Transition</option>
- 	 </select>
- 		</div>
- 	  </div>
-	  <button type="button" class="btn btn-outline-primary mb-2 ml-2 float-right" id="analyzeBtn" disabled>Analyze</button>
-	  <button type="button" class="btn btn-outline-info mb-2 ml-2 float-right" id="exportJson">Export as JSON</button>
+    </div>
+    <div class="mb-3">
+      <label for="flowPicURL" class="form-label">Picture URL:</label>
+      <input class="form-control form-control-lg" id="flowPicURL" type="text">
+    </div>
+    <div class="mb-3">
+      <label for="flowRefURL" class="form-label">Reference URL:</label>
+      <input class="form-control form-control-lg" id="flowRefURL" type="text">
+    </div>
+    <div class="mb-3">
+      <label for="coreflowSelect" class="form-label">Categories:</label>
+      <div class="mt-2">
+        <select class="coreflowSelect" id="flowCoreFlowSelection" multiple="multiple">
+          <option>Prototype Team Identity</option>
+          <option>Organize for Complexity</option>
+          <option>Facilitate Team Cohesion</option>
+          <option>Structure for Task Effectiveness</option>
+        </select>
+      </div>
+      <div class="mt-2">
+        <select class="behaviourSelect" id="flowBehaviourSelection" multiple="multiple">
+          <optgroup label="Person-related Behaviour">
+            <option>Team Member Selection</option>
+            <option>Team Norming</option>
+            <option>Team Structure Management</option>
+            <option>Role Modeling</option>
+            <option>Communication</option>
+            <option>Conflict Resolution</option>
+            <option>Consulting</option>
+            <option>Coaching</option>
+            <option>Motivating</option>
+            <option>Mentoring</option>
+          </optgroup>
+          <optgroup label="Task-related Behaviour">
+            <option>Planning and Scheduling</option>
+            <option>Allocating Resources</option>
+            <option>Monitoring and Controlling</option>
+          </optgroup>
+          <optgroup label="Change-related Behaviour">
+            <option>Continuous Learning</option>
+            <option>Sensing</option>
+            <option>Vision</option>
+          </optgroup>
+          <optgroup label="Boundary-spanning Behaviour">
+            <option>Buffering</option>
+            <option>Managing Interfaces</option>
+            <option>Representing</option>
+          </optgroup>
+          <optgroup label="Emergent Process Facilitation">
+            <option>Creating a supportive Team Atmosphere</option>
+            <option>Enabling Team Processes</option>
+            <option>Interpersonal Facilitation</option>
+            <option>Co-Leadership</option>
+          </optgroup>
+        </select>
+      </div>
+      <div class="mt-2">
+        <select class="riskSelect" id="flowRiskSelection" multiple="multiple">
+          <optgroup label="Structural Risk">
+            <option>Orientation</option>
+            <option>Funding</option>
+            <option>Performance Strategies - Goals - Schedules</option>
+            <option>Role Definition</option>
+            <option>Resources and Technical Knowledge Acquisition</option>
+            <option>Complexities in Market - Organization - and Tasks</option>
+          </optgroup>
+          <optgroup label="Process Risk">
+            <option>Motivation</option>
+            <option>Conflict in Roles - Team - Organization Politics</option>
+            <option>Team Atmosphere</option>
+            <option>Reassurance</option>
+            <option>Interpersonal Relationships</option>
+            <option>Change</option>
+            <option>Leadership Experience</option>
+            <option>Communication</option>
+          </optgroup>
+        </select>
+      </div>
+      <div class="mt-2 mb-2">
+        <select class="upPhase" id="flowUPSelection" multiple="multiple">
+          <option>Inception</option>
+          <option>Elaboration</option>
+          <option>Construction</option>
+          <option>Transition</option>
+        </select>
+      </div>
+    </div>
+    <button type="button" class="btn btn-outline-primary mb-2 ms-2 float-end" id="analyzeBtn" disabled>Analyze</button>
+    <button type="button" class="btn btn-outline-info mb-2 ms-2 float-end" id="exportJson">Export as JSON</button>
   </div>
-  <div class="col-md-4">
-	<!-- About this Template (always first) -->
-	<div class="alert alert-info mt-4" role="alert">
-		<h5>About this Template</h5>
-		<p>Use this template to write your personal reflections on significant team leadership events. The categories help you connect your experience to the knowledge base.</p>
-		<p>See the <a href="guideline.html">Guideline</a> for detailed writing recommendations.</p>
-		<p class="mb-0">Explore the <a href="visualization.html">Knowledge Base Visualization</a> to find related reference flows.</p>
-	</div>
-	
-	<!-- Analysis Results (hidden until analysis is run) -->
-	<div id="analysisResults" class="alert alert-secondary" role="alert" style="display: none;">
-		<h5>Analysis</h5>
-		<div id="analysisContent"></div>
-		<p class="small text-muted mb-0 mt-2">Analyzed on-device. No data sent to any server.</p>
-	</div>
-	
-	<!-- Privacy Note (shown before analysis) -->
-	<div id="privacyNote" class="alert alert-secondary" role="alert">
-		<h5>Privacy Note</h5>
-		<p>This is a static page. <b>No data is sent to any server.</b> Your reflections stay your device in your browser. Use "Export as JSON" to save your work locally.</p>
-		<p class="mb-0"><span id="analyzerStatus">Loading analyzer...</span></p>
-	</div>
-	
-	<!-- AI Assistant Section (always last) -->
-	<div class="alert alert-light border" role="alert">
-		<h5>AI Assistant</h5>
-		<p class="small">Get deeper insights about team leadership patterns using local AI. All processing happens on your device.</p>
-		<p class="text-center mb-2">
-			<a href="static/assets/rhea-ai-assistant.zip" class="btn btn-outline-info btn-sm" download>Download AI Assistant</a>
-		</p>
-		<p class="small text-muted mb-0">Requires <a href="https://www.python.org/downloads/" target="_blank">Python 3+</a> and <a href="https://ollama.ai" target="_blank">Ollama</a>.</p>
-	</div>
+  <div class="col-lg-4">
+    <!-- About this Template (always first) -->
+    <div class="alert alert-info mt-4" role="alert">
+      <h5>About this Template</h5>
+      <p>Use this template to write your personal reflections on significant team leadership events. The categories help you connect your experience to the knowledge base.</p>
+      <p>See the <a href="guideline.html">Guideline</a> for detailed writing recommendations.</p>
+      <p class="mb-0">Explore the <a href="visualization.html">Knowledge Base Visualization</a> to find related reference flows.</p>
+    </div>
+
+    <!-- Analysis Results (hidden until analysis is run) -->
+    <div id="analysisResults" class="alert alert-secondary" role="alert" style="display: none;">
+      <h5>Analysis</h5>
+      <div id="analysisContent"></div>
+      <p class="small text-muted mb-0 mt-2">Analyzed on-device. No data sent to any server.</p>
+    </div>
+
+    <!-- Privacy Note (shown before analysis) -->
+    <div id="privacyNote" class="alert alert-secondary" role="alert">
+      <h5>Privacy Note</h5>
+      <p>This is a static page. <b>No data is sent to any server.</b> Your reflections stay on your device in your browser. Use "Export as JSON" to save your work locally.</p>
+      <p class="mb-0"><span id="analyzerStatus">Loading analyzer...</span></p>
+    </div>
+
+    <!-- AI Assistant Section (always last) -->
+    <div class="alert alert-light border" role="alert">
+      <h5>AI Assistant</h5>
+      <p class="small">Get deeper insights about team leadership patterns using local AI. All processing happens on your device.</p>
+      <p class="text-center mb-2">
+        <a href="static/assets/rhea-ai-assistant.zip" class="btn btn-outline-info btn-sm" download>Download AI Assistant</a>
+      </p>
+      <p class="small text-muted mb-0">Requires <a href="https://www.python.org/downloads/" target="_blank">Python 3+</a> and <a href="https://ollama.ai" target="_blank">Ollama</a>.</p>
+    </div>
   </div>
-  </div>
+</div>
 </div>
 
 <footer class="py-3 bg-light">
-	 <div class="container">
-    <p class="m-0 text-center"><small>This website is designed for the demonstration and evaluation of the <i>rhea.framework</i> which was elaborated as part of a doctorate study at the University of Vienna, Austria. Version 1.3 (2020). This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>. Project source code is released under the <a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License (Version 2.0)</a>. <a href="mailto:david.haselberger@univie.ac.at">Contact</a>.
-	</small></p>
-</div>
+  <div class="container">
+    <p class="m-0 text-center"><small>This website is designed for the demonstration and evaluation of the <i>rhea.framework</i> which was elaborated as part of a doctorate study at the University of Vienna, Austria. Version 1.3 (2020). This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>. Project source code is released under the <a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License (Version 2.0)</a>. <a href="mailto:david.haselberger@univie.ac.at">Contact</a>.</small></p>
+  </div>
 </footer>
-		
+
 <script src="static/js/jquery-3.2.1.min.js"></script>
-<script src="static/js/popper.min.js"></script>
-<script src="static/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="static/js/select2.min.js"></script>
 <script type="text/javascript">
 // ============================================
 // NLP Analyzer Module
 // ============================================
 
-// Core flow colors (matching visualization.html - all use badge-info)
+// Core flow colors (matching visualization.html - all use text-bg-info)
 const coreflowColors = {
-	'PTI': 'badge-info',
-	'OFC': 'badge-info', 
-	'FTC': 'badge-info',
-	'STE': 'badge-info'
+	'PTI': 'text-bg-info',
+	'OFC': 'text-bg-info',
+	'FTC': 'text-bg-info',
+	'STE': 'text-bg-info'
 };
 
 // Plutchik emotion colors for badge backgrounds
@@ -233,7 +235,7 @@ function generateEmotionBadges(detectedEmotions) {
 	let html = '';
 	detectedEmotions.slice(0, 4).forEach(e => {
 		const color = emotionColors[e.emotion] || '#6c757d';
-		html += `<span class="badge ml-1" style="background-color: ${color}; color: #212529;">${e.emotion}</span>`;
+		html += `<span class="badge ms-1" style="background-color: ${color}; color: #212529;">${e.emotion}</span>`;
 	});
 	return html;
 }
@@ -243,7 +245,7 @@ function generateEmotionalArc(detectedEmotions) {
 	// Create map of detected emotions
 	const detected = {};
 	detectedEmotions.forEach(e => { detected[e.emotion] = e.count; });
-	
+
 	// Arc layout: positions form a U-shape, spread across full width
 	const emotions = [
 		{ name: 'joy', x: 25, y: 30, color: '#fce03b' },
@@ -255,16 +257,16 @@ function generateEmotionalArc(detectedEmotions) {
 		{ name: 'sadness', x: 295, y: 22, color: '#6a9bcb' },
 		{ name: 'surprise', x: 345, y: 30, color: '#00a7c3' }
 	];
-	
+
 	const minRadius = 3;
 	const maxRadius = 12;
-	
+
 	let svg = '<svg width="100%" height="62" viewBox="0 0 370 62" style="display:block;margin:5px auto;">';
-	
+
 	emotions.forEach(emo => {
 		const count = detected[emo.name] || 0;
 		let radius, opacity;
-		
+
 		if (count > 0) {
 			// Logarithmic scaling: starts visible, approaches max asymptotically
 			const logScale = Math.log(1 + count) / Math.log(10);
@@ -274,11 +276,11 @@ function generateEmotionalArc(detectedEmotions) {
 			radius = minRadius;
 			opacity = 0.2;
 		}
-		
+
 		svg += `<circle cx="${emo.x}" cy="${emo.y}" r="${radius}" fill="${emo.color}" opacity="${opacity}"/>`;
 		svg += `<text x="${emo.x}" y="58" text-anchor="middle" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" fill="#6c757d">${emo.name}</text>`;
 	});
-	
+
 	svg += '</svg>';
 	return svg;
 }
@@ -288,32 +290,32 @@ const NLPAnalyzer = (function() {
 	let emotions = {};
 	let referenceFlows = [];
 	let initialized = false;
-	
+
 	// RAKE (Rapid Automatic Keyword Extraction) algorithm
 	function extractKeywords(text) {
 		// Stopwords list
-		const stopwords = new Set(['i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', 'your', 
-			'yours', 'yourself', 'yourselves', 'he', 'him', 'his', 'himself', 'she', 'her', 'hers', 'herself', 
-			'it', 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves', 'what', 'which', 'who', 
-			'whom', 'this', 'that', 'these', 'those', 'am', 'is', 'are', 'was', 'were', 'be', 'been', 'being', 
-			'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing', 'a', 'an', 'the', 'and', 'but', 'if', 
-			'or', 'because', 'as', 'until', 'while', 'of', 'at', 'by', 'for', 'with', 'about', 'against', 
-			'between', 'into', 'through', 'during', 'before', 'after', 'above', 'below', 'to', 'from', 'up', 
-			'down', 'in', 'out', 'on', 'off', 'over', 'under', 'again', 'further', 'then', 'once', 'here', 
-			'there', 'when', 'where', 'why', 'how', 'all', 'each', 'few', 'more', 'most', 'other', 'some', 
-			'such', 'no', 'nor', 'not', 'only', 'own', 'same', 'so', 'than', 'too', 'very', 's', 't', 'can', 
+		const stopwords = new Set(['i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', 'your',
+			'yours', 'yourself', 'yourselves', 'he', 'him', 'his', 'himself', 'she', 'her', 'hers', 'herself',
+			'it', 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves', 'what', 'which', 'who',
+			'whom', 'this', 'that', 'these', 'those', 'am', 'is', 'are', 'was', 'were', 'be', 'been', 'being',
+			'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing', 'a', 'an', 'the', 'and', 'but', 'if',
+			'or', 'because', 'as', 'until', 'while', 'of', 'at', 'by', 'for', 'with', 'about', 'against',
+			'between', 'into', 'through', 'during', 'before', 'after', 'above', 'below', 'to', 'from', 'up',
+			'down', 'in', 'out', 'on', 'off', 'over', 'under', 'again', 'further', 'then', 'once', 'here',
+			'there', 'when', 'where', 'why', 'how', 'all', 'each', 'few', 'more', 'most', 'other', 'some',
+			'such', 'no', 'nor', 'not', 'only', 'own', 'same', 'so', 'than', 'too', 'very', 's', 't', 'can',
 			'will', 'just', 'don', 'should', 'now', 'would', 'could', 'also', 'one', 'two', 'get', 'got',
 			'really', 'think', 'know', 'like', 'want', 'need', 'make', 'made', 'way', 'thing', 'things',
 			'said', 'say', 'says', 'went', 'go', 'going', 'come', 'came', 'tell', 'told', 'ask', 'asked']);
-		
+
 		// Split text into sentences, then into candidate phrases using stopwords as delimiters
 		const sentences = text.toLowerCase().replace(/[^\w\s]/g, ' ').split(/[.!?;\n]+/);
 		const candidatePhrases = [];
-		
+
 		sentences.forEach(sentence => {
 			const words = sentence.trim().split(/\s+/);
 			let currentPhrase = [];
-			
+
 			words.forEach(word => {
 				if (word && !stopwords.has(word) && word.length > 2) {
 					currentPhrase.push(word);
@@ -326,11 +328,11 @@ const NLPAnalyzer = (function() {
 				candidatePhrases.push(currentPhrase.join(' '));
 			}
 		});
-		
+
 		// Calculate word frequency and degree
 		const wordFreq = {};
 		const wordDegree = {};
-		
+
 		candidatePhrases.forEach(phrase => {
 			const words = phrase.split(' ');
 			words.forEach(word => {
@@ -338,7 +340,7 @@ const NLPAnalyzer = (function() {
 				wordDegree[word] = (wordDegree[word] || 0) + words.length;
 			});
 		});
-		
+
 		// Calculate RAKE score for each phrase: sum of (degree/freq) for each word
 		const phraseScores = {};
 		candidatePhrases.forEach(phrase => {
@@ -349,45 +351,45 @@ const NLPAnalyzer = (function() {
 			});
 			phraseScores[phrase] = score;
 		});
-		
+
 		// Return top keywords/phrases sorted by score
 		return Object.entries(phraseScores)
 			.sort((a, b) => b[1] - a[1])
 			.slice(0, 10)
 			.map(([phrase]) => phrase);
 	}
-	
+
 	// Sentiment analysis using AFINN
 	function analyzeSentiment(text) {
 		const words = text.toLowerCase().replace(/[^a-z\s]/g, ' ').split(/\s+/);
 		let score = 0;
 		let count = 0;
-		
+
 		words.forEach(word => {
 			if (afinn[word] !== undefined) {
 				score += afinn[word];
 				count++;
 			}
 		});
-		
+
 		const normalized = count > 0 ? Math.max(-1, Math.min(1, score / (count * 2))) : 0;
-		
+
 		let label = 'Neutral';
 		if (normalized > 0.2) label = 'Positive';
 		else if (normalized < -0.2) label = 'Negative';
-		
+
 		return { score: normalized, label, wordCount: count };
 	}
-	
+
 	// Emotion detection using Plutchik lexicon
 	function detectEmotions(text) {
 		const words = text.toLowerCase().replace(/[^a-z\s]/g, ' ').split(/\s+/);
 		const emotionScores = {};
-		
+
 		Object.keys(emotions).forEach(emotion => {
 			emotionScores[emotion] = 0;
 		});
-		
+
 		words.forEach(word => {
 			Object.entries(emotions).forEach(([emotion, wordList]) => {
 				if (wordList.includes(word)) {
@@ -395,43 +397,43 @@ const NLPAnalyzer = (function() {
 				}
 			});
 		});
-		
+
 		return Object.entries(emotionScores)
 			.filter(([_, count]) => count > 0)
 			.sort((a, b) => b[1] - a[1])
 			.map(([emotion, count]) => ({ emotion, count }));
 	}
-	
+
 	// Find matching reference flows
 	function findMatchingFlows(text, topN = 5) {
 		const textWords = new Set(text.toLowerCase().replace(/[^a-z\s]/g, ' ').split(/\s+/).filter(w => w.length > 2));
 		const textKeywords = new Set(extractKeywords(text));
-		
+
 		const scored = referenceFlows.map(flow => {
 			const flowText = (flow.title + ' ' + flow.description).toLowerCase();
 			const flowWords = new Set(flowText.replace(/[^a-z\s]/g, ' ').split(/\s+/).filter(w => w.length > 2));
-			
+
 			let overlap = 0;
 			let keywordBonus = 0;
-			
+
 			textWords.forEach(word => {
 				if (flowWords.has(word)) overlap++;
 			});
-			
+
 			textKeywords.forEach(kw => {
 				if (flowWords.has(kw)) keywordBonus += 2;
 			});
-			
+
 			const score = (overlap + keywordBonus) / Math.sqrt(flowWords.size);
 			return { ...flow, score };
 		});
-		
+
 		return scored
 			.filter(f => f.score > 0)
 			.sort((a, b) => b.score - a.score)
 			.slice(0, topN);
 	}
-	
+
 	return {
 		init: function(afinnData, emotionsData, flows) {
 			afinn = afinnData;
@@ -444,9 +446,9 @@ const NLPAnalyzer = (function() {
 			}));
 			initialized = true;
 		},
-		
+
 		isReady: function() { return initialized; },
-		
+
 		analyze: function(text) {
 			if (!initialized || !text.trim()) return null;
 			return {
@@ -467,7 +469,7 @@ $(document).ready(function() {
 	$("#flowBehaviourSelection").select2({ placeholder: "Behaviour", width: '100%' });
 	$("#flowRiskSelection").select2({ placeholder: "Risk", width: '100%' });
 	$("#flowUPSelection").select2({ placeholder: "Unified Process Life-Cycle Phase", width: '100%' });
-	
+
 	// Load NLP data files
 	Promise.all([
 		fetch('static/data/afinn.json').then(r => r.json()),
@@ -483,7 +485,7 @@ $(document).ready(function() {
 			...ftc.relatedflows.map(f => ({...f, coreflow: 'FTC'})),
 			...ste.relatedflows.map(f => ({...f, coreflow: 'STE'}))
 		];
-		
+
 		NLPAnalyzer.init(afinn, emotions, allFlows);
 		$('#analyzeBtn').prop('disabled', false);
 		$('#analyzerStatus').html('Click <b>Analyze</b> to get insights from your reflection. Analysis is computed on your device.');
@@ -491,59 +493,59 @@ $(document).ready(function() {
 		console.error('Failed to load NLP data:', err);
 		$('#analyzerStatus').html('<span class="text-danger">Failed to load analyzer. Refresh to retry.</span>');
 	});
-	
+
 	// Analyze button
 	$('#analyzeBtn').click(function() {
 		const text = $('#flowDescription').val();
-		
+
 		if (!text.trim()) {
 			alert('Please write a reflection first.');
 			return;
 		}
-		
+
 		if (!NLPAnalyzer.isReady()) {
 			alert('Analyzer is still loading. Please wait.');
 			return;
 		}
-		
+
 		const results = NLPAnalyzer.analyze(text);
 		if (!results) return;
-		
+
 		let html = '';
-		
+
 		// Sentiment (numeric value)
 		html += `<p class="mb-1"><small><b>Sentiment:</b> ${results.sentiment.score.toFixed(1)}</small></p>`;
-		
+
 		// Emotional arc (like in pti.html)
 		if (results.emotions && results.emotions.length > 0) {
 			html += generateEmotionalArc(results.emotions);
 		}
-		
+
 		// Keywords as badges (matching visualization.html style)
 		if (results.keywords && results.keywords.length > 0) {
 			html += `<p class="mb-1"><small><b>Keywords:</b></small><br>`;
 			results.keywords.slice(0, 6).forEach(kw => {
-				html += `<span class="badge badge-secondary ml-1">${kw}</span>`;
+				html += `<span class="badge bg-secondary ms-1">${kw}</span>`;
 			});
 			html += `</p>`;
 		}
-		
+
 		// Matching reference flows with correct core flow colors
 		if (results.matchingFlows && results.matchingFlows.length > 0) {
 			html += `<p class="mb-1 mt-2"><small><b>Related reference flows:</b></small></p>`;
 			results.matchingFlows.forEach(flow => {
-				const badgeClass = coreflowColors[flow.coreflow] || 'badge-info';
+				const badgeClass = coreflowColors[flow.coreflow] || 'text-bg-info';
 				html += `<div class="reference-flow-item" onclick="window.open('${flow.url}', '_blank')">
 					${flow.title} <span class="badge ${badgeClass}">${flow.coreflow}</span>
 				</div>`;
 			});
 		}
-		
+
 		$('#analysisContent').html(html);
 		$('#analysisResults').show();
 		$('#privacyNote').hide();
 	});
-	
+
 	// Export functionality
 	$('#exportJson').click(function() {
 		var flowData = {
@@ -557,11 +559,11 @@ $(document).ready(function() {
 			upPhases: $('#flowUPSelection').val(),
 			exportDate: new Date().toISOString()
 		};
-		
+
 		var dataStr = JSON.stringify(flowData, null, 2);
 		var dataUri = 'data:application/json;charset=utf-8,' + encodeURIComponent(dataStr);
 		var exportName = (flowData.title || 'flow') + '.json';
-		
+
 		var linkElement = document.createElement('a');
 		linkElement.setAttribute('href', dataUri);
 		linkElement.setAttribute('download', exportName);

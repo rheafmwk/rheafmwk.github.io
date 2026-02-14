@@ -5,13 +5,13 @@
   <title>rhea.framework Knowledge Base</title>
   <meta name="Rhea Organize for Complexity" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="./static/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./static/css/select2.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-  	.custom-file-control:after {
-  	    content: attr(data-content) !important;
-  	}
+    #emoContainer svg {
+      max-width: 816px;
+      width: 100%;
+      height: auto;
+    }
   </style>
 </head>
 <body>
@@ -28,7 +28,7 @@
       <ul class="navbar-nav me-auto mt-2 mt-lg-0">
         <li class="nav-item"><a class="nav-link" href="index.html">Overview</a></li>
         <li class="nav-item"><a class="nav-link" href="flowtemplate.html">FlowTemplate</a></li>
-        <li class="nav-item active"><a class="nav-link" href="ontologyview.html">KnowledgeBase</a></li>
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="ontologyview.html">KnowledgeBase</a></li>
         <li class="nav-item"><a class="nav-link" href="literature.html">Literature</a></li>
       </ul>
     </div>
@@ -43,7 +43,8 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12">
-      			<h3 class="text-left lead my-2 mb-4">Organize for Complexity<div class="text-center"><img src="./static/assets/OrganizeForComplexity.svg" width="100px"></div></h3>
+      <h3 class="text-start lead my-2 mb-2">Organize for Complexity</h3>
+      <div class="text-center mb-4"><img src="./static/assets/OrganizeForComplexity.svg" width="100" alt="Organize for Complexity"></div>
     </div>
   </div>
   <hr>
@@ -51,11 +52,11 @@
   <div class="row">
     <div class="col-md-12 mt-4">
       <ul>
-        <li><small class="lead">In highly complex work environments, such as ICT projects, change is a steady companion.</small></li>
-        <li><small class="lead">Change - in requirements, technology, the organization or the team - goes with uncertainty.</small></li>
-        <li><small class="lead">Team self-organization can support in adapting to complexity.</small></li>
-        <li><small class="lead">Self-organization of (parts of) a team goes along decentralization in decision-making.</small></li>
-        <li><small class="lead">Facilitative team leaders listen to team members and stakeholders (in a way those feel empathically understood). They support team self-organization.</small></li>
+        <li><span class="lead">In highly complex work environments, such as ICT projects, change is a steady companion.</span></li>
+        <li><span class="lead">Change - in requirements, technology, the organization or the team - goes with uncertainty.</span></li>
+        <li><span class="lead">Team self-organization can support in adapting to complexity.</span></li>
+        <li><span class="lead">Self-organization of (parts of) a team goes along decentralization in decision-making.</span></li>
+        <li><span class="lead">Facilitative team leaders listen to team members and stakeholders (in a way those feel empathically understood). They support team self-organization.</span></li>
       </ul>
     </div>
   </div>
@@ -67,7 +68,7 @@
   <div class="row">
     <div class="col-md-12 mt-4">
       <div class="text-center"><div id="emoContainer"></div></div>
-      <p><div class="text-center small">This emotional landscape is derived from associated <i>reference flows</i> based on the <a href="http://www.saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm">NRC Word-Emotion Association Lexicon</a> (v0.92). Find out more about Plutchik's Wheel of Emotions <a href="https://en.wikipedia.org/wiki/Contrasting_and_categorization_of_emotions#Plutchik's_wheel_of_emotions">here</a>.</div></p>
+      <div class="text-center small">This emotional landscape is derived from associated <i>reference flows</i> based on the <a href="http://www.saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm">NRC Word-Emotion Association Lexicon</a> (v0.92). Find out more about Plutchik's Wheel of Emotions <a href="https://en.wikipedia.org/wiki/Contrasting_and_categorization_of_emotions#Plutchik's_wheel_of_emotions">here</a>.</div>
     </div>
   </div>
   <hr>
@@ -89,7 +90,7 @@
   </div>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>
 const flowData = {"relatedflows":[{"n.title":"Master and Apprentice","n.doc_id":"A_MasterAndApprentice.txt","n.description":"In an environment that uses documentation only if they are part of the delivery, knowledge transfer between team members becomes a matter of direct collaboration instead of document transfer. You cannot just pass a well-written document to the novice and expect her to read it. Rather you have to transfer tacit knowledge that resides in the heads of the experts only. Still, those who have the knowledge are usually occupied with the project work. Pair up anyone who needs to learn something about the project with someone who is expert in this area.","n.referenceURL":"http://hillside.net/europlop/HillsideEurope/Papers/EuroPLoP2002/2002_Coldewey_InteractionPatternsOfAgileDevelopment.pdf"},{"n.title":"Forge the team","n.doc_id":"TB_ForgeTheTeam.txt","n.description":"Recognise that differences of opinion within a team are an asset, not a liability. Differences of opinion become dysfunctional when they are not resolved. When warring factions emerge, bring the individual chief protagonists together for counselling.","n.referenceURL":"http://wiki.c2.com/?ForgeTheTeam"},{"n.title":"Sacrifice one person","n.doc_id":"TD_SacrificeOnePerson.txt","n.description":"Small distractions can add up, and sap the strength of the team. Assign just one person to it until it gets handled.","n.referenceURL":"http://orgpatterns.wikispaces.com/SacrificeOnePerson"},{"n.title":"Effective coach","n.doc_id":"C_EffectiveCoach.txt","n.description":"No process can work if you don't perform its practices. This is especially true as some of the practices are counter-intuitive to many programmers. Many practices that are counter-productive in practice are ingrained in many work environments. People do these things naturally even though they know that they don't work. Therefore, someone on the team will have a full time role as Coach.","n.referenceURL":"https://csis.pace.edu/~bergin/patterns/xpPatternsEuroV7.html"},{"n.title":"Developing in pairs","n.doc_id":"PP_DevelopingInPairs.txt","n.description":"Some people don't want to work alone, and working alone has great risks of blindsiding and misfits. And you need to provide for people who don't want to work alone, and in general engage people who are working alone but probably shouldn't be. Pair compatible designers to work together, together, they can produce more than the sum of the two individually.","n.referenceURL":"http://orgpatterns.wikispaces.com/DevelopingInPairs"},{"n.title":"Someone always makes progress","n.doc_id":"ID_SomeoneAlwaysMakesProgress.txt","n.description":"It is important to keep a team moving forward and to avoid getting stuck on the obstacles. Whatever you try, ensure that someone on the team is making progress on the primary task.","n.referenceURL":"http://orgpatterns.wikispaces.com/SomeoneAlwaysMakesProgress"},{"n.title":"Private space","n.doc_id":"WT_PrivateSpace.txt","n.description":"Concentration is one of the most valuable assets in software development. It may cost up to 20 minutes for a brainworker to recover from a single interruption. In addition personal comfort calls for a minimum of privacy that may be endangered in a highly collaborative environment. Make sure every team member has a private space he or she can retreat to when it is needed.","n.referenceURL":"http://hillside.net/europlop/HillsideEurope/Papers/EuroPLoP2002/2002_Coldewey_InteractionPatternsOfAgileDevelopment.pdf"},{"n.title":"Open up communication","n.doc_id":"CC_OpenUpCommunication.txt","n.description":"How can an agile team be provided with information and communication channels needed to be self organized, whilst addressing the need for information and control by the overall project management? Create a communication plan for the agile project, basically addressing the how and not the details.","n.referenceURL":"http://hillside.net/europlop/europlop2011/submission/shepherd.cgi"},{"n.title":"Generics and specifics","n.doc_id":"ID_GenericsAndSpecifics.txt","n.description":"Novices, even when mentored, tend to produce weak designs and cut and paste code. Separate generic from specific parts of problems. Use an expert, a framework designer to design generic parts. Let the novice programmers design the specific parts.","n.referenceURL":"http://orgpatterns.wikispaces.com/GenericsAndSpecifics"},{"n.title":"Join for completion","n.doc_id":"RM_JoinForCompletion.txt","n.description":"How can you make the final tuning and qualification of your product efficient and focused? Gather the whole team (developers, architects, domain experts, and internal and external testers) together in one location for the final tuning of the product before delivery.","n.referenceURL":"http://hillside.net/plop/2004/papers/vbricout0/PLoP2004_vbricout0_0.doc"},{"n.title":"Collective responsibility","n.doc_id":"T_CollectiveResponsibility.txt","n.description":"You need a high performance team in which every individual is deeply committed to every aspect of success of the project. Therefore, make the responsibility for completion and for the artifacts collective by the team, not by individuals.","n.referenceURL":"https://csis.pace.edu/~bergin/patterns/xpPatternsEuroV7.html"},{"n.title":"Diverse groups","n.doc_id":"TB_DiverseGroups.txt","n.description":"Homogeneous teams that comprise too many of the same kind of people easily fall into groupthink-like dysfunction. Consider temperaments and diverse experience backgrounds when assembling a team.","n.referenceURL":"http://orgpatterns.wikispaces.com/DiverseGroups"},{"n.title":"Growing your team","n.doc_id":"TB_GrowingYourTeam.txt","n.description":"Your team thinks it does good work, day in and day out. But you feel that things could be much better. Maybe the team is in denial about some problem, or maybe the work needs to move to the next level for some reason that you see and the team doesn't yet. Create an environment for your team to discover the need for change.","n.referenceURL":"http://wiki.c2.com/?GrowingYourTeam"},{"n.title":"Team space","n.doc_id":"WT_TeamSpace.txt","n.description":"Your physical work environment should be arranged to maximise people's productive time. Therefore, create a physical space for casual, unplanned interactions between team members.","n.referenceURL":"http://www.hillside.net/plop/plop98/final_submissions/P54.pdf"},{"n.title":"Deliverables to go","n.doc_id":"ID_DeliverablesToGo.txt","n.description":"Your team maintains (or will shortly maintain) released software. You must scope and time your team's deliverables so that their recipients will use them. Therefore, only release when users are ready to consume.","n.referenceURL":"http://www.hillside.net/plop/plop98/final_submissions/P54.pdf"},{"n.title":"Train everyone","n.doc_id":"C_TrainEveryone.txt","n.description":"Everyone has different ideas about how the project will proceed. If the methodology is new to the company, much of this information is faulty. Therefore, provide training that both shows everyone all the essential roles, but also brings the participants together as a team.","n.referenceURL":"https://csis.pace.edu/~bergin/patterns/xpPatternsEuroV7.html"},{"n.title":"Reciprocal visibility","n.doc_id":"CC_ReciprocalVisibility.txt","n.description":"Everyone involved in the project, including management, immediately adopts a posture of self-protection and blame avoidance. Constraints to be met: All actions that affect the state of the project are expressed in a manner that includes the whole team.","n.referenceURL":"http://hillside.net/plop/2006/Papers/Library/AdoptingAgilePractices.pdf"},{"n.title":"Form follows function","n.doc_id":"TB_FormFollowsFunction.txt","n.description":"A project must delineate well-defined roles to help identify and leverage expertise relevant to emerging problems. Group closely related activities. Name the abstractions resulting from the grouped activities, making them into roles.","n.referenceURL":"http://orgpatterns.wikispaces.com/FormFollowsFunction"},{"n.title":"Management by triggers","n.doc_id":"CC_ManagementByTriggers.txt","n.description":"When a project gets out of hands, adding even further levels of control and tracking is hardly possible and rarely helpful. Therefore, enable developers to take local decisions. Encourage a communication culture of small neighborhoods.","n.referenceURL":"http://ceur-ws.org/Vol-566/e4_dealingwithcomplexity.pdf"},{"n.title":"Deploy along the grain","n.doc_id":"ID_DeployAlongTheGrain.txt","n.description":"In the past, the roles of analysis, design and implementation have been split among different people. Deploy people along the grain of the domain. That is to say, give them dedicated, long term responsibility for a manageable piece of the system.","n.referenceURL":"http://orgpatterns.wikispaces.com/DeployAlongTheGrain"},{"n.title":"Re-negotiate complexity","n.doc_id":"CC_ReNegotiateComplexity.txt","n.description":"Accepting every wish that a stakeholder mentions limits the project's options to make decisions that fit its situations. Therefore, renegotiate all factors that contribute to the overall complexity, as soon as you become aware of them.","n.referenceURL":"http://ceur-ws.org/Vol-566/e4_dealingwithcomplexity.pdf"},{"n.title":"Participant observation","n.doc_id":"A_ParticipantObservation.txt","n.description":"Even though you are assembling a team that includes most of the roles, customer to coder, communication is still role-to-role with lots of interpretation across the communication channel. Live with, eat with, work with, and empathize with the other members of your team.","n.referenceURL":"http://hillside.net/plop/2006/Papers/Library/AdoptingAgilePractices.pdf"}],"upphases":[{"phase":"Construction","count":4},{"phase":"Inception","count":6},{"phase":"Elaboration","count":8},{"phase":"Transition","count":4}],"emotionlandscape":{"joy":26,"anticipation":43,"sadness":19,"disgust":9,"anger":15,"fear":25,"surprise":16,"trust":100}};
 
@@ -140,7 +141,7 @@ function handleData(data) {
     { x_axis: 662, y_axis: 125, radius: Number(emo.sadness || 0) / 2, color: "#6a9bcb", name: "Sadness" },
     { x_axis: 764, y_axis: 140, radius: Number(emo.surprise || 0) / 2, color: "#00a7c3", name: "Surprise" }
   ];
-  const svgContainer = d3.select('#emoContainer').append("div").classed("svg-container", true).append("svg").attr("width", 816).attr("height", 200).attr("viewBox", "0 0 816 200").attr("preserveAspectRatio", "xMidYMid meet");
+  const svgContainer = d3.select('#emoContainer').append("svg").attr("viewBox", "0 0 816 200").attr("preserveAspectRatio", "xMidYMid meet");
   svgContainer.selectAll("circle").data(emoCircles).enter().append("circle").attr("cx", d => d.x_axis).attr("cy", d => d.y_axis).attr("r", d => d.radius).style("fill", d => d.color);
   svgContainer.append("svg:g").selectAll("g").data(emoCircles).enter().append("svg:g").append("svg:text").attr("x", d => d.x_axis).attr("y", 190).attr("text-anchor", "middle").style("font-size", "12px").style("font-family", "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif").text(d => d.name);
 }
